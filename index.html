@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
-    <link rel="stylesheet"  href="css/style.css">
-  </head>
-  <body class="home">
-    <header>
-      <div class="header-up clearfix">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Девайс</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="home">
+  <header>
+    <div class="container clearfix">
+      <div class="header-background">
         <a href="#" class="device-logo">Device</a>
-        <div class="heder-up-search">
+        <div class="header-up clearfix">
           <form class="search">
             <input type="text" name="search-string" value="Поиск по сайту">
             <input type="submit" value="Найти">
           </form>
-        </div>
-        <ul class="header-up-user-menu">
-          <li class="login"><a href="#">Войти</a></li>
-          <li class="compare"><a href="#">Сравнить</a></li>
-          <li class="cart"><a href="#">Корзина</a></li>
-        </ul>
-      </div>
-      <div class="header-down clearfix">
-        <nav class="main-navigation">
-          <ul class="main-navigation-list"> 
-            <li class="main-navigation-list-item"><a href="#">Каталог товаров</a>
-              <ul class="subnavigation-list">
-                <li class="subnavigation-list-item"><a href="#">Виртуальная реальность</a></li>
-                <li class="subnavigation-list-item"><a href="#">Моноподы для селфи</a></li>
-                <li class="subnavigation-list-item"><a href="#">Экшн-камеры</a></li>
-                <li class="subnavigation-list-item"><a href="#">Фитнес-браслеты</a></li>
-                <li class="subnavigation-list-item"><a href="#">Умные часы</a></li>
-                <li class="subnavigation-list-item"><a href="#">Квадрокоптеры</a></li>
-              </ul>
-            </li>
-            <li class="main-navigation-list-item"><a href="#">Доставка</a></li>
-            <li class="main-navigation-list-item" ><a href="#">Гарантия</a></li>
-            <li class="main-navigation-list-item"><a href="#">Контакты</a></li>
+          <ul class="header-up-user-menu clearfix">
+            <li class="logout"><a href="#">Выйти</a></li>
+            <li class="compare"><a href="#">Сравнить</a></li>
+            <li class="cart"><a href="#">Корзина</a></li>
           </ul>
-        </nav>         
+        </div>
+        <div class="header-down">
+          <nav class="main-navigation clearfix">
+            <ul class="main-navigation-list">
+              <li class="main-navigation-list-item"><a href="#">Каталог товаров</a>
+                <ul class="subnavigation-list">
+                  <li class="subnavigation-list-item"><a href="#">Виртуальная реальность</a></li>
+                  <li class="subnavigation-list-item"><a href="#">Моноподы для селфи</a></li>
+                  <li class="subnavigation-list-item"><a href="#">Экшн-камеры</a></li>
+                  <li class="subnavigation-list-item"><a href="#">Фитнес-браслеты</a></li>
+                  <li class="subnavigation-list-item"><a href="#">Умные часы</a></li>
+                  <li class="subnavigation-list-item"><a href="#">Квадрокоптеры</a></li>
+                </ul>
+              </li>
+              <li class="main-navigation-list-item"><a href="#">Доставка</a></li>
+              <li class="main-navigation-list-item"><a href="#">Гарантия</a></li>
+              <li class="main-navigation-list-item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </header>
-    <main class="main">
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
       <div class="home-carousel clearfix">
-        <ul class="slides">
+        <ul class="slides clearfix">
           <li class="slide-active">
             <img src="img/slider-1.png" width="384" height="486" alt="Селфи-палка">
             <span class="slide-number">01</span>
             <h2>Делай селфи, как Бен Стиллер!</h2>
             <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом 5 килограмм.</p>
             <a href="#" class="slide-read-more">Подробнее</a>
-            <ul class="slide-features">
+            <ul class="slide-features clearfix">
               <li>
                 <span class="slide-features-large">8,5 м</span><br>
                 <span class="slide-featers-small">Длина палки</span>
@@ -65,7 +70,7 @@
               </li>
             </ul>
           </li>
-          <li class="slide">
+          <li class="slide2">
             <img src="img/slider-2.png" width="345" height="485" alt="Смарт-браслет">
             <span class="slide-number">02</span>
             <h2>Худеем правильно!</h2>
@@ -78,7 +83,7 @@
               </li>
             </ul>
           </li>
-          <li class="slide">
+          <li class="slide3">
             <img src="img/slider-3.png" width="526" height="334" alt="Дрон">
             <span class="slide-number">03</span>
             <h2>Порхает как бабочка, жалит как пчела!</h2>
@@ -96,7 +101,7 @@
             </ul>
           </li>
         </ul>
-        <ul class="slider-indicators">
+        <ul class="slider-indicators clearfix">
           <li class="active">
             <button type="button"></button>
           </li>
@@ -108,8 +113,8 @@
           </li>
         </ul>
       </div>
-      <div class="home-popular">
-        <ul>
+      <div class="home-popular clearfix">
+        <ul class="home-popular-list clearfix">
           <li class="home-popular-item"><a href="#">Виртуальная реальность</a></li>
           <li class="home-popular-item"><a href="#">Моноподы для селфи</a></li>
           <li class="home-popular-item"><a href="#">Экшн-камеры</a></li>
@@ -118,8 +123,8 @@
           <li class="home-popular-item"><a href="#">Квадрокоптеры</a></li>
         </ul>
       </div>
-      <div class="home-services">
-        <ul class="home-services-menu">
+      <div class="home-services clearfix">
+        <ul class="home-services-menu clearfix">
           <li class="active">Доставка</li>
           <li>
             <a href="#">Гарантия</a>
@@ -128,7 +133,7 @@
             <a href="#">Кредит</a>
           </li>
         </ul>
-        <ul class="home-services-description">
+        <ul class="home-services-description clearfix">
           <li class="active">
             <h3>Доставка</h3>
             <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
@@ -144,7 +149,7 @@
         </ul>
       </div>
       <div class="home-logotypes">
-        <ul class="logo">
+        <ul class="logo clearfix">
           <li>
             <a href="#">
               <img src="img/logo-1-black.png" width="260" height="100" alt="DJI">
@@ -167,54 +172,58 @@
           </li>
         </ul>
       </div>
-      <div class="home-info">
-        <div class="home-info-about-us">
+      <div class="home-info clearfix">
+        <div class="home-info-about-us clearfix">
           <h2>О нас</h2>
           <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
           <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
-          <ul>
+          <ul class="companies-list">
             <li>Деловые Линии</li>
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
           <a href="#">Подробнее о нас</a>
         </div>
-        <div class="home-info-contact">
+        <div class="home-info-contact clearfix">
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
           <div class="home-info-map">
-            <img src="img/map.png" width="566" height="222" alt="map">
+            <img src="img/map.png" width="560" height="222" alt="map">
           </div>
           <a href="#">Напишите нам</a>
         </div>
       </div>
-    </main>
-    <footer>
+    </div>
+  </main>
+  <footer>
+    <div class="container clearfix">
       <div class="footer-up">
-        <a href="#" class="Device-logo">Device</a>
-        <ul class="user-menu">
+        <a href="#" class="device-logo">Device</a>
+        <ul class="user-menu claerfix">
           <li class="login"><a href="#">Войти</a></li>
           <li class="compare"><a href="#">Сравнить</a></li>
           <li class="cart"><a href="#">Корзина</a></li>
-        </ul>       
+        </ul>
       </div>
       <div class="footer-center">
         <span class="address">г. Москва ул.Строителей, 15</span>
-        <ul class="footer-menu">
+        <ul class="footer-menu clearfix">
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Гарантия</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
-        <span class="tel">Тел: +7(495)495-95-95</span>   
+        <span class="tel">Тел: +7(495)495-95-95</span>
       </div>
       <div class="footer-down">
-        <ul class="footer-social">
+        <ul class="footer-social clearfix">
           <li><a href="#" class="facebook">Facebook</a></li>
           <li><a href="#" class="instagram">Instagram</a></li>
           <li><a href="#" class="twiter">Twiter</a></li>
         </ul>
         <a href="#" class="developer-logo">htmlacademy.ru</a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
