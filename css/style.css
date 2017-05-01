@@ -101,7 +101,7 @@ li.subnavigation-list-item a {
   line-height: 60px;
   float: right;
   width: 90px;
-  height: 60px;
+  min-height: 60px;
 }
 
 
@@ -154,7 +154,7 @@ header {
 
 .heder-up-search {
   width: 500px;
-  height: 16px;
+  min-height: 16px;
   padding-left: 60px;
   padding-left: 40px;
   float: left;
@@ -181,13 +181,15 @@ h1 {
 }
 
 .catalog {
-  height: 1263px;
+  min-height: 1263px;
+  background: #EFEFEF;
 }
+  
 
 .catalog-filter {
   width: 330px;
   background: #efefef;
-  float: left;
+  float: right;
   margin: 0px;
   padding: 0px;
 }
@@ -216,7 +218,7 @@ h2.catalog-wrapper-sort-label {
 
 .catalog-good {
   width: 360px;
-  height: 462px;
+  min-height: 462px;
   margin: 0px 40px 40px 0px;
   float: left;
 }
@@ -240,32 +242,32 @@ footer {
 }
 
 .footer-up {
-  height: 39px;
+  min-height: 39px;
   margin-top: 57px;
   margin-bottom: 35px;
 }
 
 .footer-center {
-  height: 23px;
+  min-height: 23px;
   margin-bottom: 63px;
   text-align: center;
 }
 
 .footer-down {
-  height: 43px;
+  min-height: 43px;
   margin-bottom: 63px;
   text-align: center;
 }
 
 .home-carousel {
-  height: 485px;
+  min-height: 485px;
   margin: 0px 0px 106px 0px;
   padding: 0px;
 }
 
-.slide-active img {
+.slide img {
   width: 384px;
-  height: 486px;
+  min-height: 486px;
   float: left;
   margin-left: 80px;
   margin-right: 120px;
@@ -273,19 +275,15 @@ footer {
 
 .slide-read-more {
   width: 480px;
-  height: 20px;
+  min-height: 20px;
   margin-bottom: 65px;
   margin-right: 80px;
   float: right;
 }
 
-.slide-features {
-  
-}
-
 .logo li {
   width: 260px;
-  height: 100px;
+  min-height: 100px;
   margin-right: 40px;
   float: left;
 }
@@ -325,8 +323,6 @@ footer .user-menu a {
 .user-menu li:last-child {
   margin-right: 0px;
 }
-
-.facebook {}
 
 .footer-social li {
   float: left;
@@ -491,8 +487,6 @@ footer .user-menu a {
   float: left;
 }
 
-.main-navigation {}
-
 .header-background {
   background-color: #f7e296;
 }
@@ -500,8 +494,6 @@ footer .user-menu a {
 .catalog-filter-form {
   padding: 70px 70px 70px 60px;
 }
-
-.catalog-filter-price {}
 
 .color {
   list-style: none;
@@ -513,13 +505,7 @@ ul.bluetooth {
   padding: 0px;
 }
 
-.slide3 {
-  display: none;
-}
 
-.slide2 {
-  display: none;
-}
 
 .logo {
   padding: 0px;
@@ -636,7 +622,7 @@ ul.bluetooth {
 }
 
 .homecarousel li {
-  height: 486px;
+  min-height: 486px;
 }
 
 .slides {
@@ -662,4 +648,29 @@ ul.bluetooth {
 
 .slider-indicators li {
   display: inline-block;
+}
+
+.catalog-column-1 {
+  float: left;
+  background: #efefef;
+}
+
+.catalog-row-1 .catalog-column-1{
+  background: #dcdcdc;
+}
+
+.catalog-column-2 {
+  float: left;
+}
+
+.slides .slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.catalog-row-2 .catalog-column-2 {
+  background: #FFFFFF;
 }
