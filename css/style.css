@@ -236,7 +236,6 @@ h2.catalog-wrapper-sort-label {
 
 footer {
   min-height: 323px;
-  padding: 0 20px;
   background: #464646;
   color: #ffffff;
 }
@@ -286,6 +285,9 @@ footer {
   min-height: 100px;
   margin-right: 40px;
   float: left;
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
 }
 
 .logo li:last-child {
@@ -512,15 +514,9 @@ ul.bluetooth {
   margin: 0px auto;
 }
 
-.logo li {
-  display: inline-block;
-  list-style: none;
-  margin-right: 40px;
-}
 
-.logo li:last-child {
-  margin-right: 0px;
-}
+
+
 
 .home-services-menu {
   width: 280px;

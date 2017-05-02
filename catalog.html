@@ -60,135 +60,139 @@
     <div class="catalog clearfix">
       <!--Разделил на два ряда блоков и 2 колонки. Как выравнять по цнетру? -->
       <div class="catalog-row-1 clearfix">
-        <div class="catalog-column-1 clearfix">
-          <div class="catalog-filter">
-            <h2 class="catalog-filter-label">Фильтр:</h2>
+        <div class="container clearfix">
+          <div class="catalog-column-1 clearfix">
+            <div class="catalog-filter">
+              <h2 class="catalog-filter-label">Фильтр:</h2>
+            </div>
           </div>
-        </div>
-        <div class="catalog-column-2 clearfix">
-          <div class="catalog-wrapper">
-            <div class="catalog-wrapper-sort-label clearfix">
-              <h2 class="catalog-wrapper-sort-label">Сортировка:</h2>
-              <ul class="catalog-wrapper-sort-value clearfix">
-                <li class="active"><a href="#">По цене</a></li>
-                <li><a href="#">По типу</a></li>
-                <li><a href="#">По популярности</a></li>
-              </ul>
-              <ul class="catalog-wrapper-sort-order clearfix">
-                <li><button type="button" class="asc">По возрастанию</button></li>
-                <li class="active"><button type="button" class="desc">По убыванию</button></li>
-              </ul>
+          <div class="catalog-column-2 clearfix">
+            <div class="catalog-wrapper">
+              <div class="catalog-wrapper-sort-label clearfix">
+                <h2 class="catalog-wrapper-sort-label">Сортировка:</h2>
+                <ul class="catalog-wrapper-sort-value clearfix">
+                  <li class="active"><a href="#">По цене</a></li>
+                  <li><a href="#">По типу</a></li>
+                  <li><a href="#">По популярности</a></li>
+                </ul>
+                <ul class="catalog-wrapper-sort-order clearfix">
+                  <li><button type="button" class="asc">По возрастанию</button></li>
+                  <li class="active"><button type="button" class="desc">По убыванию</button></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="catalog-row-2 clearfix">
-        <div class="catalog-column-1 clearfix">
-          <div class="catalog-filter">
-            <form class="catalog-filter-form">
-              <p class="catalog-filter-price">Стоимость</p>
-              <input class="catalog-filter-price min" name="min" type="text" id="min">
-              <label for="min">От</label>
-              <input class="catalog-filter-price max" name="max" type="text" id="max">
-              <label for="max">До</label>
-              <p class="color">Цвет</p>
-              <ul class="color">
-                <li>
-                  <input type="checkbox" name="color-1" id="color-1" checked>
-                  <label for="color-1">Черный</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="color-2" id="color-2">
-                  <label for="color-2">Зеленый</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="color-3" id="color-3" checked>
-                  <label for="color-3">Синий</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="color-4" id="color-4" checked>
-                  <label for="color-4">Красный</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="color-5" id="color-5">
-                  <label for="color-5">Розовый</label>
-                </li>
-              </ul>
-              <p class="bluetooth">Bluetooth</p>
-              <ul class="bluetooth">
-                <li>
-                  <label>
+        <div class="container clearfix">
+          <div class="catalog-column-1 clearfix">
+            <div class="catalog-filter">
+              <form class="catalog-filter-form">
+                <p class="catalog-filter-price">Стоимость</p>
+                <input class="catalog-filter-price min" name="min" type="text" id="min">
+                <label for="min">От</label>
+                <input class="catalog-filter-price max" name="max" type="text" id="max">
+                <label for="max">До</label>
+                <p class="color">Цвет</p>
+                <ul class="color">
+                  <li>
+                    <input type="checkbox" name="color-1" id="color-1" checked>
+                    <label for="color-1">Черный</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="color-2" id="color-2">
+                    <label for="color-2">Зеленый</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="color-3" id="color-3" checked>
+                    <label for="color-3">Синий</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="color-4" id="color-4" checked>
+                    <label for="color-4">Красный</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="color-5" id="color-5">
+                    <label for="color-5">Розовый</label>
+                  </li>
+                </ul>
+                <p class="bluetooth">Bluetooth</p>
+                <ul class="bluetooth">
+                  <li>
+                    <label>
                   <input type="radio" name="bluetooth" value="1" checked>
                   Есть
                 </label>
-                </li>
-                <li>
-                  <label>
+                  </li>
+                  <li>
+                    <label>
                   <input type="radio" name="bluetooth" value="2">
                   Нет
                 </label>
-                </li>
-              </ul>
-              <input type="submit" value="Показать">
-            </form>
-          </div>
-        </div>
-        <div class="catalog-column-2 clearfix">
-          <div class="catalog-wrapper">
-            <div class="catalog-goods clearfix">
-              <article class="catalog-good">
-                <img src="img/item-1.png" width="360" height="380" alt="Любительская селфи-палка">
-                <div class="good-name clearfix">
-                  <a href="#">Любительская селфи-палка</a>
-                  <span class="good-name-price">500 руб.</span>
-                </div>
-                <div class="good-action clearfix">
-                  <a href="#" class="cart">В корзину</a>
-                  <a href="#" class="compare">Добавить к сравнению</a>
-                </div>
-              </article>
-              <article class="catalog-good">
-                <img src="img/item-2.png" width="360" height="380" alt="Профессиональная селфи-палка">
-                <div class="good-name clearfix">
-                  <a href="#">Профессиональная селфи-палка</a>
-                  <span class="good-name-price">1500 руб.</span>
-                </div>
-                <div class="good-action clearfix">
-                  <a href="#" class="cart">В корзину</a>
-                  <a href="#" class="compare">Добавить к сравнению</a>
-                </div>
-              </article>
-              <article class="catalog-good">
-                <img src="img/item-3.png" width="360" height="380" alt="Непотопляемая селфи-палка">
-                <div class="good-name clearfix">
-                  <a href="#">Непотопляемая селфи-палка</a>
-                  <span class="good-name-price">2500 руб.</span>
-                </div>
-                <div class="good-action clearfix">
-                  <a href="#" class="cart">В корзину</a>
-                  <a href="#" class="compare">Добавить к сравнению</a>
-                </div>
-              </article>
-              <article class="catalog-good">
-                <img src="img/item-4.png" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
-                <div class="good-name clearfix">
-                  <a href="#">Селфи-палка «Следуй за мной»</a>
-                  <span class="good-name-price">4900 руб.</span>
-                </div>
-                <div class="good-action clearfix">
-                  <a href="#" class="cart">В корзину</a>
-                  <a href="#" class="compare">Добавить к сравнению</a>
-                </div>
-              </article>
+                  </li>
+                </ul>
+                <input type="submit" value="Показать">
+              </form>
             </div>
-            <div class="catalog-paginator clearfix">
-              <a href="#" class="prev">Назад</a>
-              <ul class="pages clearfix">
-                <li class="active">1</li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-              </ul>
-              <a href="#" class="next">Вперед</a>
+          </div>
+          <div class="catalog-column-2 clearfix">
+            <div class="catalog-wrapper">
+              <div class="catalog-goods clearfix">
+                <article class="catalog-good">
+                  <img src="img/item-1.png" width="360" height="380" alt="Любительская селфи-палка">
+                  <div class="good-name clearfix">
+                    <a href="#">Любительская селфи-палка</a>
+                    <span class="good-name-price">500 руб.</span>
+                  </div>
+                  <div class="good-action clearfix">
+                    <a href="#" class="cart">В корзину</a>
+                    <a href="#" class="compare">Добавить к сравнению</a>
+                  </div>
+                </article>
+                <article class="catalog-good">
+                  <img src="img/item-2.png" width="360" height="380" alt="Профессиональная селфи-палка">
+                  <div class="good-name clearfix">
+                    <a href="#">Профессиональная селфи-палка</a>
+                    <span class="good-name-price">1500 руб.</span>
+                  </div>
+                  <div class="good-action clearfix">
+                    <a href="#" class="cart">В корзину</a>
+                    <a href="#" class="compare">Добавить к сравнению</a>
+                  </div>
+                </article>
+                <article class="catalog-good">
+                  <img src="img/item-3.png" width="360" height="380" alt="Непотопляемая селфи-палка">
+                  <div class="good-name clearfix">
+                    <a href="#">Непотопляемая селфи-палка</a>
+                    <span class="good-name-price">2500 руб.</span>
+                  </div>
+                  <div class="good-action clearfix">
+                    <a href="#" class="cart">В корзину</a>
+                    <a href="#" class="compare">Добавить к сравнению</a>
+                  </div>
+                </article>
+                <article class="catalog-good">
+                  <img src="img/item-4.png" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
+                  <div class="good-name clearfix">
+                    <a href="#">Селфи-палка «Следуй за мной»</a>
+                    <span class="good-name-price">4900 руб.</span>
+                  </div>
+                  <div class="good-action clearfix">
+                    <a href="#" class="cart">В корзину</a>
+                    <a href="#" class="compare">Добавить к сравнению</a>
+                  </div>
+                </article>
+              </div>
+              <div class="catalog-paginator clearfix">
+                <a href="#" class="prev">Назад</a>
+                <ul class="pages clearfix">
+                  <li class="active">1</li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+                <a href="#" class="next">Вперед</a>
+              </div>
             </div>
           </div>
         </div>
