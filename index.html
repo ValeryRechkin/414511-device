@@ -15,7 +15,7 @@
         <div class="header-up clearfix">
           <form class="search">
             <input type="text" name="search-string" value="Поиск по сайту">
-            <input type="submit" value="Найти">
+            <input class="button" type="submit" value="Найти">
           </form>
           <ul class="header-up-user-menu clearfix">
             <li class="logout"><a href="#">Выйти</a></li>
@@ -115,17 +115,29 @@
       </div>
       <div class="home-popular">
         <ul class="home-popular-list clearfix">
-          <li class="home-popular-item"><a href="#">Виртуальная реальность</a></li>
-          <li class="home-popular-item"><a href="#">Моноподы для селфи</a></li>
-          <li class="home-popular-item"><a href="#">Экшн-камеры</a></li>
-          <li class="home-popular-item"><a href="#">Фитнес-браслеты</a></li>
-          <li class="home-popular-item"><a href="#">Умные часы</a></li>
-          <li class="home-popular-item"><a href="#">Квадрокоптеры</a></li>
+          <li class="home-popular-item">
+            <a href="#"><span class="icon-bg"><span class="icon ico1"></span></span><span class="text">Виртуальная реальность</span></a>
+          </li>
+          <li class="home-popular-item">
+            <a href="#"><span class="icon-bg"><span class="icon ico2"></span></span><span class="text">Моноподы для селфи</span></a>
+          </li>
+          <li class="home-popular-item">
+            <a href="#"><span class="icon-bg"><span class="icon ico3"></span></span><span class="text">Экшн-камеры</span></a>
+          </li>
+          <li class="home-popular-item">
+            <a href="#"><span class="icon-bg"><span class="icon ico4"></span></span><span class="text">Фитнес-браслеты</span></a>
+          </li>
+          <li class="home-popular-item">
+            <a href="#"><span class="icon-bg"><span class="icon ico5"></span></span><span class="text">Умные часы</span></a>
+          </li>
+          <li class="home-popular-item">
+            <a href="#"><span class="icon-bg"><span class="icon ico6"></span></span><span class="text">Квадрокоптеры</span></a>
+          </li>
         </ul>
       </div>
       <div class="home-services clearfix">
         <ul class="home-services-menu clearfix">
-          <li class="active">Доставка</li>
+          <li class="active"><a href="#">Доставка</a></li>
           <li>
             <a href="#">Гарантия</a>
           </li>
@@ -134,15 +146,15 @@
           </li>
         </ul>
         <ul class="home-services-description clearfix">
-          <li class="active">
+          <li class="delivery active">
             <h3>Доставка</h3>
             <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
           </li>
-          <li>
+          <li class="warranty">
             <h3>Гарантия</h3>
             <p>Если из-за возгарания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
           </li>
-          <li>
+          <li class="credit">
             <h3>Кредит</h3>
             <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
           </li>
@@ -150,30 +162,15 @@
       </div>
       <div class="home-logotypes">
         <ul class="logo clearfix">
-          <li>
-            <a href="#">
-              <img src="img/logo-1-black.png" width="260" height="100" alt="DJI">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="img/logo-2-black.png" width="260" height="100" alt="SRGadgets">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="img/logo-3-black.png" width="260" height="100" alt="GoPro">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="img/logo-4-black.png" width="260" height="100" alt="Vive">
-            </a>
-          </li>
+          <li><a href="#" class="dji">DJI</a></li>
+          <li><a href="#" class="srgadgets">SRGadgets</a></li>
+          <li><a href="#" class="gopro">GoPro</a></li>
+          <li><a href="#" class="vive">Vive</a></li>
         </ul>
       </div>
       <div class="home-info clearfix">
         <div class="home-info-about-us">
+          <div class="black-line"></div>
           <h2>О нас</h2>
           <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
           <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
@@ -185,6 +182,7 @@
           <a href="#">Подробнее о нас</a>
         </div>
         <div class="home-info-contact">
+          <div class="black-line"></div>
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
           <div class="home-info-map">
@@ -200,9 +198,9 @@
       <div class="footer-up clearfix">
         <a href="#" class="device-logo">Device</a>
         <ul class="user-menu clearfix">
-          <li class="login"><a href="#">Войти</a></li>
-          <li class="compare"><a href="#">Сравнить</a></li>
-          <li class="cart"><a href="#">Корзина</a></li>
+          <li class="login"><a href="#"><span class="action-icon"></span>Войти</a></li>
+          <li class="compare"><a href="#"><span class="action-icon"></span>Сравнить</a></li>
+          <li class="cart"><a href="#"><span class="action-icon"></span>Корзина</a></li>
         </ul>
       </div>
       <div class="footer-center clearfix">
@@ -215,6 +213,7 @@
         <span class="tel">Тел: +7(495)495-95-95</span>
       </div>
       <div class="footer-down clearfix">
+        <div class="yellow-line"></div>
         <ul class="footer-social clearfix">
           <li><a href="#" class="facebook">Facebook</a></li>
           <li><a href="#" class="instagram">Instagram</a></li>

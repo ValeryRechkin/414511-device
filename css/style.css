@@ -24,7 +24,7 @@ body {
 }
 
 h2 {
-  font-size: 21px;
+  font-size: 35px;
   font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -32,7 +32,7 @@ h2 {
 }
 
 .slides h2 {
- font-size: 21px;
+  font-size: 21px;
   font-family: "Gilroy";
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -40,32 +40,68 @@ h2 {
   margin-bottom: 40px;
 }
 
-
 .home-info-about-us h2 {
   margin: 60px 0px 60px 0px;
   line-height: 1.2;
 }
 
 h3 {
-  font-size: 10.769px;
+  font-size: 40px;
   font-family: "Gilroy", "Arial", sans-serif;
-  color: rgb(247, 225, 132);
+  color: rgb(0, 0, 0);
   font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 40px;
+  margin-top: 0px;
 }
 
 .device-logo {
   font-size: 48px;
-  font-family: "Gilroy";
+  font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.2;
   text-transform: uppercase;
 }
 
+footer .device-logo {
+  font-size: 48px;
+  font-family: "Gilroy", "Arial", sans-serif;
+  color: rgb(255, 198, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  position: absolute;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgba(255, 198, 0, 0.6)
+}
+
+footer a:active {
+  color: rgba(255, 198, 0, 0.3)
+}
+
+
+
+
 header .device-logo {
   margin-left: 60px;
+  text-decoration: none;
+  font-size: 48px;
+  font-family: "Gilroy", "Arial", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  position: absolute;
+  top: -28px;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  color: rgba(0, 0, 0, 0.6)
+}
+
+header a:active {
+  color: rgba(0, 0, 0, 0.3)
 }
 
 .search input {
@@ -74,23 +110,28 @@ header .device-logo {
   color: rgba(0, 0, 0, 0.302);
   font-weight: normal;
   line-height: 2.4;
+  background: rgb(247, 226, 150)
 }
 
 .header-up-user-menu a,
 li.subnavigation-list-item a {
   font-size: 15px;
-  font-family: "OpenSans";
+  font-family: "OpenSans", "Arial", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: normal;
   line-height: 2.4;
+  text-align: left;
+  text-decoration: none;
 }
 
 .main-navigation-list-item a {
   font-size: 18px;
-  font-family: "Gilroy";
+  font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.2;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .slide-number {
@@ -104,21 +145,37 @@ li.subnavigation-list-item a {
   min-height: 60px;
 }
 
-
-
-
-
-
-
-.slide-read-more {
+a.slide-read-more {
   font-size: 10.769px;
-  font-family: "Gilroy";
+  font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.2;
-  margin-bottom: 70px;
+  text-align: center;
+  background-image: url("../img/line.png");
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  display: block;
+  line-height: center;
+  text-decoration: none;
+  width: 220px;
+  height: 20px;
 }
+
+a:hover.slide-read-more {
+  background-repeat: repeat;
+} 
+
+a:active.slide-read-more {
+  background-repeat: repeat;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
 
 .slide-features-large {
   font-size: 36px;
@@ -184,7 +241,6 @@ h1 {
   min-height: 1263px;
   background: #EFEFEF;
 }
-  
 
 .catalog-filter {
   width: 330px;
@@ -238,6 +294,7 @@ footer {
   min-height: 323px;
   background: #464646;
   color: #ffffff;
+  padding: 60px 0px;
 }
 
 .footer-up {
@@ -277,7 +334,7 @@ footer {
   min-height: 20px;
   margin-bottom: 65px;
   margin-right: 80px;
-  float: right;
+  float: left;
 }
 
 .logo li {
@@ -289,6 +346,26 @@ footer {
   list-style: none;
   margin-right: 40px;
 }
+
+.logo li:last-child{
+  margin-right: 0px;
+}
+
+.logo li a{
+  width: 260px;
+  height: 100px;
+  display: block;
+  line-height: 100px;
+  text-align: center;
+  font-size: 0px;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.logo li a.dji
+
+
+
 
 .logo li:last-child {
   margin-right: 0px;
@@ -308,7 +385,22 @@ footer {
 
 footer .user-menu a {
   color: #ffffff;
+  font-size: 15px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 0.702);
+  line-height: 2.4;
+  text-align: left;
+  text-decoration: none;
 }
+
+footer .user-menu a:hover {
+  color: rgb(255, 255, 255);
+}
+
+footer .user-menu a:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 
 .footer-up .user-menu {
   float: right;
@@ -317,7 +409,7 @@ footer .user-menu a {
 
 .user-menu li {
   float: left;
-  padding: 0px 0px 0px 24px;
+  padding: 0px;
   list-style: none;
   margin: 0px 40px 0px 0px;
 }
@@ -351,8 +443,13 @@ footer .user-menu a {
   float: right;
 }
 
+
 .tel {
   float: right;
+  font-size: 15px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 2;
 }
 
 .footer-menu {
@@ -363,6 +460,10 @@ footer .user-menu a {
 
 .address {
   float: left;
+  font-size: 15px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 2;
 }
 
 .footer-social {
@@ -421,6 +522,13 @@ footer .user-menu a {
 }
 
 .bread-crumbs li {
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1.2;
   float: left;
   padding: 0px 40px 0px 0px;
   margin: 0px;
@@ -491,6 +599,8 @@ footer .user-menu a {
 
 .header-background {
   background-color: #f7e296;
+  position: relative;
+  padding-top: 28px;
 }
 
 .catalog-filter-form {
@@ -507,16 +617,10 @@ ul.bluetooth {
   padding: 0px;
 }
 
-
-
 .logo {
   padding: 0px;
   margin: 0px auto;
 }
-
-
-
-
 
 .home-services-menu {
   width: 280px;
@@ -545,7 +649,6 @@ ul.bluetooth {
   float: left;
   list-style: none;
   margin-right: 40px;
-  padding-top: 160px;
 }
 
 .home-popular-item:last-child {
@@ -553,8 +656,22 @@ ul.bluetooth {
 }
 
 .companies-list {
-  margin: 90px 0px 80px 25px;
+  margin: 90px 0px 80px 0px;
   padding: 0px;
+}
+
+ul.companies-list li {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  line-height: 2;
+  text-align: left;
+  font-weight: bold;
+  background-image: url("../img/circle-30.png");
+  list-style: none;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-position: 0px 50%;
 }
 
 .home-info {
@@ -585,7 +702,7 @@ ul.bluetooth {
 }
 
 .home-info-map {
-  margin: 0px 0px 80px 0px;
+  margin: 0px 0px 91px 0px;
 }
 
 .home-services-menu li {
@@ -594,15 +711,31 @@ ul.bluetooth {
   text-align: center;
 }
 
-.home-services-menu li.active {
-  background-color: #000;
-  color: #f0c52e;
-}
+
 
 .home-services-description li {
   padding: 0px 240px 0px 0px;
   display: none;
+  background-repeat: no-repeat;
 }
+
+.home-services-description li.delivery {
+  background-image: url("../img/delivery.png");
+  background-position: 560px 2px;
+}
+
+.home-services-description li.warranty {
+  padding-top: 21px;
+  background-image: url("../img/warranty.png");
+  background-position: 532px 2px;
+}
+
+.home-services-description li.credit {
+  padding-top: 21px;
+  background-image: url("../img/credit.png");
+  background-position: 534px 2px;
+}
+
 
 .home-services-description li.active {
   display: block;
@@ -610,11 +743,12 @@ ul.bluetooth {
 
 .home-popular-item a {
   font-size: 18px;
-  font-family: "Gilroy";
+  font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.2;
   margin-top: 40px;
+  text-decoration: none;
 }
 
 .homecarousel li {
@@ -651,7 +785,7 @@ ul.bluetooth {
   background: #efefef;
 }
 
-.catalog-row-1 .catalog-column-1{
+.catalog-row-1 .catalog-column-1 {
   background: #dcdcdc;
 }
 
@@ -670,3 +804,326 @@ ul.bluetooth {
 .catalog-row-2 .catalog-column-2 {
   background: #FFFFFF;
 }
+
+.search .button {
+  width: 85px;
+  height: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 2.4;
+  text-align: center;
+}
+
+.home-popular-item a .icon-bg {
+  background-color: rgba(240, 197, 46, 0.5);
+  display: block;
+  margin-bottom: 40px;
+}
+
+.home-popular-item a:hover .icon-bg {
+  background-color: rgba(240, 197, 46, 1);
+}
+
+.home-popular-item a:active .icon-bg {
+  background-color: rgba(240, 197, 46, 1);
+}
+
+.home-popular-item a .icon {
+  background-image: url("../img/poppular.png");
+  background-position: 0px 0px;
+  width: 160px;
+  height: 160px;
+  display: block;
+}
+
+.home-popular-item a:active .icon {
+  opacity: 0.3;
+}
+
+.home-popular-item a .icon.ico1 {
+  background-position: 0px 0px;
+}
+
+.home-popular-item a .icon.ico2 {
+  background-position: -200px 0px;
+}
+
+.home-popular-item a .icon.ico3 {
+  background-position: -400px 0px;
+}
+
+.home-popular-item a .icon.ico4 {
+  background-position: -600px 0px;
+}
+
+.home-popular-item a .icon.ico5 {
+  background-position: -800px 0px;
+}
+
+.home-popular-item a .icon.ico6 {
+  background-position: -1000px 0px;
+}
+
+
+.home-logotypes img {
+  background-blend-mode:overlay;
+  opacity: 0.2;
+}
+
+.logo li a.srgadgets {
+  background: url(../img/logo-2-black.png);
+  opacity: 0.2;
+}
+
+.logo li a.srgadgets:hover {
+  background: url(../img/logo-2-color.png);
+  opacity: 1;
+}
+
+.logo li a.gopro {
+  background: url(../img/logo-3-black.png);
+  opacity: 0.2;
+}
+
+.logo li a.gopro:hover {
+  background: url(../img/logo-3-color.png);
+  opacity: 1;
+}
+
+.logo li a.vive {
+  background: url(../img/logo-4-black.png);
+  opacity: 0.2;
+}
+
+.logo li a.vive:hover {
+  background: url(../img/logo-4-color.png);
+  opacity: 1;
+}
+
+.logo li a.dji {
+  background: url(../img/logo-1-black.png);
+  opacity: 0.2;
+}
+
+.logo li a.dji:hover{
+  background: url(../img/logo-1-color.png);
+  opacity: 1;
+}
+
+.footer-center .footer-menu a {
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-center .footer-menu a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-center .footer-menu a:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.footer-down a.developer-logo {
+  text-decoration: none;
+  font-size: 0px;
+  vertical-align: top;
+  background-image: url("../img/htmlacademy.png");
+  background-repeat: no-repeat;
+  width: 27px;
+  height: 36px;
+}
+
+.footer-down a.developer-logo:hover {
+  opacity: 0.6;
+}
+
+.footer-down a.developer-logo:active {
+  opacity: 0.3;
+}
+
+.footer-social a {
+  text-decoration: none;
+  font-size: 0px;
+  text-align: top;
+  background-image: url("../img/social.png");
+  width: 39px;
+  height: 38px;
+  display: block;
+  opacity: 0.3;
+}
+
+.footer-social a:hover {
+  opacity: 0.6;
+}
+.footer-social a:active {
+  opacity: 0.1;
+}
+
+.footer-social a.instagram{
+  background-position: -54px 0px;
+}
+
+.footer-social a.twiter{
+  background-position: -109px 0px;
+}
+
+.home-services-menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-image: url("../img/line.png");
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  display: block;
+  line-height: 40px;
+  width: 160px;
+  height: 40px;
+}
+
+.home-services-menu li a:hover {
+  background-repeat: repeat;
+}
+
+.home-services-menu li a:active,
+.home-services-menu li.active a {
+  color: rgb(247, 225, 132);
+  background: black;
+  padding-right: 120px;
+}
+
+}
+
+p {
+  font-size: 15px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: rgb(70, 70, 70);
+  line-height: 2;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+div.home-info-about-us a {
+  text-decoration: none;
+  font-size: 10,77px;
+  font-family: "Gilroy", "Arial", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-image: url("../img/line.png");
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  display: block;
+  line-height: center;
+  width: 260px;
+  height: 15px;
+}
+
+div.home-info-about-us a:hover,
+div.home-info-contact a:hover {
+  background-repeat: repeat;
+}
+
+div.home-info-about-us a:active,
+div.home-info-contact a:active {
+  background-repeat: repeat;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+
+div.home-info-contact a {
+  text-decoration: none;
+  font-size: 10,77px;
+  font-family: "Gilroy", "Arial", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-image: url("../img/line.png");
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  display: block;
+  line-height: center;
+  width: 260px;
+  height: 15px;
+}
+
+ 
+
+
+
+.home-popular-item  a:active .text {
+  opacity: 0.3;
+}
+
+.user-menu a .action-icon {
+  width: 13px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 12px;
+  color: rgb(255, 198, 0);
+  opacity: 0.6;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.user-menu a:hover .action-icon {
+  opacity: 1;
+}
+
+.user-menu a:active .action-icon {
+  opacity: 0.3;
+}
+
+.login .action-icon {
+  background-image: url("../img/user.png");
+}
+
+.compare .action-icon {
+  background-image: url("../img/compare.png");
+}
+
+.cart .action-icon {
+  background-image: url("../img/cart.png");
+}
+
+.yellow-line {
+  float: left;
+  background: rgb(255, 198, 0);
+  width: 80px;
+  height: 8px;
+  margin-top: 17px;
+}
+
+.black-line {
+  background: rgb(0, 0, 0);
+  width: 80px;
+  height: 8px;
+  margin-top: 93px;
+  margin-bottom: 52px;
+}
+
