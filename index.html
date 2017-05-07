@@ -10,7 +10,7 @@
 <body class="home">
   <header>
     <div class="container">
-      <div class="header-background clearfix">
+      <div class="header-wrapper clearfix">
         <a href="#" class="device-logo">Device</a>
         <div class="header-up clearfix">
           <form class="search">
@@ -18,22 +18,34 @@
             <input class="button" type="submit" value="Найти">
           </form>
           <ul class="header-up-user-menu clearfix">
-            <li class="logout"><a href="#">Выйти</a></li>
-            <li class="compare"><a href="#">Сравнить</a></li>
-            <li class="cart"><a href="#">Корзина</a></li>
+            <li class="login"><a href="#"><span class="black-icon"></span>Войти</a></li>
+            <li class="compare"><a href="#"><span class="black-icon"></span>Сравнить</a></li>
+            <li class="cart"><a href="#"><span class="black-icon"></span>Корзина</a></li>
           </ul>
         </div>
         <div class="header-down">
           <nav class="main-navigation">
             <ul class="main-navigation-list clearfix">
-              <li class="main-navigation-list-item"><a href="#">Каталог товаров</a>
-                <ul class="subnavigation-list">
-                  <li class="subnavigation-list-item"><a href="#">Виртуальная реальность</a></li>
-                  <li class="subnavigation-list-item"><a href="#">Моноподы для селфи</a></li>
-                  <li class="subnavigation-list-item"><a href="#">Экшн-камеры</a></li>
-                  <li class="subnavigation-list-item"><a href="#">Фитнес-браслеты</a></li>
-                  <li class="subnavigation-list-item"><a href="#">Умные часы</a></li>
-                  <li class="subnavigation-list-item"><a href="#">Квадрокоптеры</a></li>
+              <li class="main-navigation-list-item catalog-menu"><a href="#">Каталог товаров</a>
+                <ul class="subnavigation-list clearfix">
+                  <li class="subnavigation-list-category">
+                    <ul>
+                      <li class="subnavigation-list-item"><a href="#">Виртуальная реальность</a></li>
+                      <li class="subnavigation-list-item"><a href="#">Моноподы для селфи</a></li>
+                      <li class="subnavigation-list-item"><a href="#">Экшн-камеры</a></li>
+                    </ul>
+                  </li>
+                  <li class="subnavigation-list-category">
+                    <ul>
+                      <li class="subnavigation-list-item"><a href="#">Фитнес-браслеты</a></li>
+                      <li class="subnavigation-list-item"><a href="#">Умные часы</a></li>
+                    </ul>
+                  </li>
+                  <li class="subnavigation-list-category">
+                    <ul>
+                      <li class="subnavigation-list-item"><a href="#">Квадрокоптеры</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               <li class="main-navigation-list-item"><a href="#">Доставка</a></li>
@@ -48,57 +60,68 @@
   <main class="main">
     <div class="container">
       <div class="home-carousel">
+        <span class="slide-number">01</span>
         <ul class="slides clearfix">
-          <li class="slide active">
-            <img src="img/slider-1.png" width="384" height="486" alt="Селфи-палка">
-            <span class="slide-number">01</span>
-            <h2>Делай селфи, как Бен Стиллер!</h2>
-            <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом 5 килограмм.</p>
-            <a href="#" class="slide-read-more">Подробнее</a>
-            <ul class="slide-features clearfix">
-              <li>
-                <span class="slide-features-large">8,5 м</span><br>
-                <span class="slide-featers-small">Длина палки</span>
-              </li>
-              <li>
-                <span class="slide-features-large">5 кг</span><br>
-                <span class="slide-featers-small">Вес палки</span>
-              </li>
-              <li>
-                <span class="slide-features-large">Карбон</span><br>
-                <span class="slide-featers-small">Материал</span>
-              </li>
-            </ul>
+          <li class="slide clearfix active">
+            <div class="slide-img">
+              <img src="img/slider-1.png" width="384" height="486" alt="Селфи-палка">
+            </div>
+            <div class="slide-info">
+              <h2>Делай селфи,<br> как Бен Стиллер!</h2>
+              <p>Самая длинная палка для селфи доступна в нашем магазине.</p>
+              <p>Восемь (Восемь, Карл!) метров длиной и весом 5 килограмм.</p>
+              <a href="#" class="slide-read-more">Подробнее</a>
+              <ul class="slide-features clearfix">
+                <li>
+                  <span class="slide-features-large">8,5 м</span><br>
+                  <span class="slide-featers-small">Длина палки</span>
+                </li>
+                <li>
+                  <span class="slide-features-large">5 кг</span><br>
+                  <span class="slide-featers-small">Вес палки</span>
+                </li>
+                <li>
+                  <span class="slide-features-large">Карбон</span><br>
+                  <span class="slide-featers-small">Материал</span>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li class="slide">
-            <img src="img/slider-2.png" width="345" height="485" alt="Смарт-браслет">
-            <span class="slide-number">02</span>
-            <h2>Худеем правильно!</h2>
-            <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-            <a href="#" class="slide-read-more">Подробнее</a>
-            <ul class="slide-features">
-              <li>
-                <span class="slide-features-large">48 часов</span><br>
-                <span class="slide-featers-small">Без подзарядки</span>
-              </li>
-            </ul>
+          <li class="slide clearfix">
+            <div class="slide-img">
+              <img src="img/slider-2.png" width="345" height="485" alt="Смарт-браслет">
+            </div>
+            <div class="slide-info">
+              <h2>Худеем<br>правильно!</h2>
+              <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+              <a href="#" class="slide-read-more">Подробнее</a>
+              <ul class="slide-features">
+                <li>
+                  <span class="slide-features-large">48 часов</span><br>
+                  <span class="slide-featers-small">Без подзарядки</span>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li class="slide">
-            <img src="img/slider-3.png" width="526" height="334" alt="Дрон">
-            <span class="slide-number">03</span>
-            <h2>Порхает как бабочка, жалит как пчела!</h2>
-            <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартну камеру.</p>
-            <a href="#" class="slide-read-more">Подробнее</a>
-            <ul class="slide-features">
-              <li>
-                <span class="slide-features-large">800 м</span><br>
-                <span class="slide-featers-small">Дальность полета</span>
-              </li>
-              <li>
-                <span class="slide-features-large">50 м</span><br>
-                <span class="slide-featers-small">Радиус поражения</span>
-              </li>
-            </ul>
+          <li class="slide clearfix">
+            <div class="slide-img">
+              <img src="img/slider-3.png" width="580" height="477" alt="Дрон">
+            </div>
+            <div class="slide-info">
+              <h2>Порхает как бабочка,<br>жалит как пчела!</h2>
+              <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартну камеру.</p>
+              <a href="#" class="slide-read-more">Подробнее</a>
+              <ul class="slide-features">
+                <li>
+                  <span class="slide-features-large">800 м</span><br>
+                  <span class="slide-featers-small">Дальность полета</span>
+                </li>
+                <li>
+                  <span class="slide-features-large">50 м</span><br>
+                  <span class="slide-featers-small">Радиус поражения</span>
+                </li>
+              </ul>
+            </div>
           </li>
         </ul>
         <ul class="slider-indicators clearfix">
@@ -135,31 +158,37 @@
           </li>
         </ul>
       </div>
-      <div class="home-services clearfix">
-        <ul class="home-services-menu clearfix">
-          <li class="active"><a href="#">Доставка</a></li>
-          <li>
-            <a href="#">Гарантия</a>
-          </li>
-          <li>
-            <a href="#">Кредит</a>
-          </li>
-        </ul>
-        <ul class="home-services-description clearfix">
-          <li class="delivery active">
-            <h3>Доставка</h3>
-            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-          </li>
-          <li class="warranty">
-            <h3>Гарантия</h3>
-            <p>Если из-за возгарания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
-          </li>
-          <li class="credit">
-            <h3>Кредит</h3>
-            <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
-          </li>
-        </ul>
+    </div>
+    <div class="grey-bg">
+      <div class="container">
+        <div class="home-services clearfix">
+          <ul class="home-services-menu clearfix">
+            <li class="active"><a href="#">Доставка</a></li>
+            <li>
+              <a href="#">Гарантия</a>
+            </li>
+            <li>
+              <a href="#">Кредит</a>
+            </li>
+          </ul>
+          <ul class="home-services-description clearfix">
+            <li class="delivery active">
+              <h3>Доставка</h3>
+              <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+            </li>
+            <li class="warranty">
+              <h3>Гарантия</h3>
+              <p>Если из-за возгарания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
+            </li>
+            <li class="credit">
+              <h3>Кредит</h3>
+              <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
+            </li>
+          </ul>
+        </div>
       </div>
+    </div>
+    <div class="container">
       <div class="home-logotypes">
         <ul class="logo clearfix">
           <li><a href="#" class="dji">DJI</a></li>
