@@ -257,7 +257,24 @@
   </footer>
   <!--Всплывающие окна-->
   <div class="popup-overlay">
-    <div class="popup write-us" id="writeus"></div>
+    <div class="popup write-us" id="writeus">
+      <button type="button" class="popup-close">Закрыть</button>
+      <form class="write-us-form" action="#">
+        <div class="clearfix">
+          <div class="write-us-form-col">
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="name" id="name" value="" placeholder="Представьтесь пожалуйста">
+          </div>
+          <div class="write-us-form-col">
+            <label for="email">Ваше e-mail:</label>
+            <input type="email" name="email" id="email" value="" placeholder="Для отправки ответа">
+          </div>
+        </div>
+        <label for="letter">Текст письма:</label>
+        <textarea id="letter" name="letter">В свободной форме</textarea>
+        <button class="write-us-form-button" type="submit">ОТПРАВИТЬ</button>
+      </form>
+    </div>
     <div class="popup map" id="map">
       <button type="button" class="popup-close">Закрыть</button>
     </div>

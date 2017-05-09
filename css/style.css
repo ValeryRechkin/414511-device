@@ -1517,7 +1517,8 @@ p {
 .filter-ul input[type=checkbox]:checked~label>span:active>span {
   background: none;
 }
-.catalog-filter-form input[type=submit] {
+.catalog-filter-form input[type=submit],
+.write-us-form-button {
   width: 200px;
   padding: 15px;
   background: url(../img/line.png) repeat-x center;
@@ -1533,10 +1534,12 @@ p {
   cursor: pointer;
   outline: none;
 }
-.catalog-filter-form input[type=submit]:hover {
+.catalog-filter-form input[type=submit]:hover,
+.write-us-form-button:hover {
   background-repeat: repeat;
 }
-.catalog-filter-form input[type=submit]:active {
+.catalog-filter-form input[type=submit]:active,
+.write-us-form-button:active {
   background-repeat: repeat;
   color: rgba(0, 0, 0, 0.3);
 }
@@ -1646,6 +1649,7 @@ p {
 }
 
 .popup-overlay {
+  display: none;
   position: fixed;
   overflow: auto;
   left: 0;
@@ -1671,4 +1675,67 @@ p {
 .popup-close:hover, .popup-close:focus {
   outline: none;
   background: rgba(240, 197, 46, 1) url("../img/modal-close.png") no-repeat 50% 50%;
+}
+
+.popup.active {
+  display: block;
+}
+
+.write-us-form {
+  margin: 80px;
+}
+
+.write-us-form label {
+  display: block;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  margin-bottom: 12px;
+}
+
+.write-us-form input[type=text],
+.write-us-form input[type=email],
+.write-us-form textarea {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 900;
+  color: rgba(70, 70, 70, 0.4);
+  background-color: rgba(229, 229, 229, 0.5);
+  border: none;
+  margin-bottom: 38px;
+  padding: 16px 22px;
+  width: 316px;
+}
+
+.write-us-form textarea {
+  width: 716px;
+  height: 123px;
+  margin-bottom: 7px;
+}
+
+.write-us-form input[type=text]:hover,
+.write-us-form input[type=email]:hover,
+.write-us-form textarea:hover {
+  background-color: rgba(229, 229, 229, 0.8);
+}
+
+.write-us-form input[type=text]:focus,
+.write-us-form input[type=email]:focus,
+.write-us-form textarea:focus {
+  background-color: rgb(255, 255, 255);
+  color: rgba(70, 70, 70, 1);
+  outline: none;
+  box-shadow: inset 0px 0px 0px 3px rgba(240, 197, 46, 0.5);
+}
+
+.write-us-form input:invalid {
+  background: rgba(237, 181, 181, 0.5);
+}
+
+.write-us-form-col {
+  width: 50%;
+  float: left;
 }
