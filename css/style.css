@@ -1178,8 +1178,7 @@ p {
   text-align: left;
   font-weight: normal;
 }
-div.home-info-about-us a,
-div.home-info-contact a {
+.home-info-read-more {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 18px;
@@ -1196,12 +1195,10 @@ div.home-info-contact a {
   width: 260px;
   padding: 9px 0px;
 }
-div.home-info-about-us a:hover,
-div.home-info-contact a:hover {
+.home-info-read-more:hover {
   background-repeat: repeat;
 }
-div.home-info-about-us a:active,
-div.home-info-contact a:active {
+.home-info-read-more:active {
   background-repeat: repeat;
   color: rgba(0, 0, 0, 0.3);
 }
@@ -1254,7 +1251,7 @@ div.home-info-contact a:active {
   background-position: bottom;
 }
 .home-services {
-  padding-bottom: 68px;
+  padding-bottom: 32px;
   margin-bottom: 94px;
 }
 .slide-features {
