@@ -105,10 +105,18 @@
               <form class="catalog-filter-form">
                 <span></span>
                 <p class="filter-label-with-border">Стоимость</p>
-                <input class="catalog-filter-price min" name="min" type="text" id="min">
-                <label for="min">От</label>
-                <input class="catalog-filter-price max" name="max" type="text" id="max">
-                <label for="max">До</label>
+                <div class="price-range-background">
+                  <div class="price-range">
+                    <div class="price-range-pointer min">
+                      <label class="price-range-label min" for="min">от 0</label>
+                    </div>
+                    <div class="price-range-pointer max">
+                      <label  class="price-range-label max" for="max">до 5000</label>
+                    </div>
+                  </div>
+                </div>
+                <input class="catalog-filter-price min" name="min" type="hidden" id="min">
+                <input class="catalog-filter-price max" name="max" type="hidden" id="max">
                 <p class="filter-label-with-border color">Цвет</p>
                 <ul class="filter-ul color">
                   <li>
