@@ -216,11 +216,10 @@
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
           <div class="home-info-map">
-            <a href="#">
               <img src="img/map.png" width="560" height="222" alt="map">
             </a>
           </div>
-          <a href="#" class="home-info-read-more">Напишите нам</a>
+          <a href="#write-us-popup" class="home-info-read-more popuplink">Напишите нам</a>
         </div>
       </div>
     </div>
@@ -257,25 +256,25 @@
   </footer>
   <!--Всплывающие окна-->
   <div class="popup-overlay">
-    <div class="popup write-us" id="writeus">
+    <div class="popup write-us" id="write-us-popup">
       <button type="button" class="popup-close">Закрыть</button>
       <form class="write-us-form" action="#">
         <div class="clearfix">
           <div class="write-us-form-col">
             <label for="name">Ваше имя:</label>
-            <input type="text" name="name" id="name" value="" placeholder="Представьтесь пожалуйста">
+            <input type="text" name="name" id="name" value="" placeholder="Представьтесь пожалуйста" required>
           </div>
           <div class="write-us-form-col">
             <label for="email">Ваше e-mail:</label>
-            <input type="email" name="email" id="email" value="" placeholder="Для отправки ответа">
+            <input type="email" name="email" id="email" value="" placeholder="Для отправки ответа" required>
           </div>
         </div>
         <label for="letter">Текст письма:</label>
-        <textarea id="letter" name="letter">В свободной форме</textarea>
+        <textarea id="letter" name="letter" placeholder="В свободной форме"></textarea>
         <button class="write-us-form-button" type="submit">ОТПРАВИТЬ</button>
       </form>
     </div>
-    <div class="popup map" id="map">
+    <div class="popup map" id="map-popup">
       <button type="button" class="popup-close">Закрыть</button>
     </div>
   </div>
