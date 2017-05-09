@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: 'Gilroy';
   src: url('../fonts/gilroylight.woff2') format('woff2'), url('../fonts/gilroylight.woff') format('woff');
@@ -285,8 +283,7 @@ div.catalog-wrapper-sort-label {
   padding: 25px 0px 25px 70px;
 }
 
-
-.catalog-row-1 h2{
+.catalog-row-1 h2 {
   line-height: 1.2;
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -711,7 +708,7 @@ footer .user-menu a:active {
   padding: 30px 70px 70px 60px;
 }
 
-.catalog-filter-form label{
+.catalog-filter-form label {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 40px;
@@ -1348,7 +1345,6 @@ p {
 .subnavigation-list-category a:hover {
   color: rgba(0, 0, 0, 0.6);
 }
-
 .catalog-wrapper-sort-order button {
   font-size: 0px;
   border: none;
@@ -1378,7 +1374,6 @@ p {
   text-align: center;
   display: none;
 }
-
 .good-action a {
   display: block;
   text-decoration: none;
@@ -1559,7 +1554,6 @@ p {
   width: 1160px;
   padding: 0px 0px;
 }
-
 .good-name h3 {
   padding: 0px;
   margin: 0px;
@@ -1567,20 +1561,18 @@ p {
   font-size: 18px;
   font-family: "Gilroy", "Arial", sans-serif;
 }
-
 .price-range-background {
   background: rgb(219, 219, 219);
   height: 2px;
-  margin: 6px 0px 66px 0px;;
+  margin: 6px 0px 66px 0px;
+  ;
 }
-
 .price-range {
   background: rgb(145, 201, 47);
   height: 2px;
   width: 70%;
   position: relative;
 }
-
 .price-range-pointer {
   height: 10px;
   width: 10px;
@@ -1591,28 +1583,23 @@ p {
   position: absolute;
   cursor: pointer;
 }
-
 .price-range-pointer.min {
-  left:0px;
+  left: 0px;
 }
-
 .price-range-pointer.max {
-  right:0px;
+  right: 0px;
 }
-
 .price-range-pointer:active {
   background: rgb(145, 201, 47);
   border-color: rgb(255, 255, 255);
-  box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.75); 
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
 }
-
-
 .price-range-label {
   position: absolute;
   top: 12px;
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 22,27px;
+  line-height: 22, 27px;
   letter-spacing: 0;
   font-weight: 100;
   width: 60px;
@@ -1620,11 +1607,9 @@ p {
   margin: 0px;
   padding: 0px;
 }
-
 .price-range-label.max {
   left: -25px;
 }
-
 .catalog-good.new::after {
   content: "NEW";
   position: absolute;
@@ -1640,4 +1625,50 @@ p {
   font-weight: 900;
   letter-spacing: 0.05;
   padding: 20px 0px;
+}
+
+.popup {
+  display: none;
+  width: 960px;
+  position: absolute;
+  z-index: 10000;
+  min-height: 500px;
+  left: 50%;
+  top: 50%;
+  margin-left: -480px;
+  margin-top: -250px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.popup.map {
+  background: url("../img/map-big.png") no-repeat 50% 50%;
+}
+
+.popup-overlay {
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup-close {
+  width: 54.6px;
+  height: 54.6px;
+  background: rgba(240, 197, 46, 0.5) url("../img/modal-close.png") no-repeat 50% 50%;
+  font-size: 0px;
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  border: none;
+  border-radius: 54px;
+  cursor: pointer;
+  outline: none;
+}
+
+.popup-close:hover, .popup-close:focus {
+  outline: none;
+  background: rgba(240, 197, 46, 1) url("../img/modal-close.png") no-repeat 50% 50%;
 }
