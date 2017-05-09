@@ -1627,3 +1627,20 @@ div.home-info-contact a:active {
 .price-range-label.max {
   left: -25px;
 }
+
+.catalog-good.new::after {
+  content: "NEW";
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  color: rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  width: 56px;
+  text-align: center;
+  border-radius: 56px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: 0.05;
+  padding: 20px 0px;
+}
