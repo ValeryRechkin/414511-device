@@ -28,7 +28,6 @@ body {
   font-family: "Open Sans", "Arial", sans-serif;
   color: rgb(70, 70, 70);
   font-weight: 100;
-  line-height: 2;
   margin: 0px;
   padding: 0px;
   letter-spacing: 0.01em;
@@ -36,6 +35,10 @@ body {
 
 body {
   min-width: 1200px;
+}
+
+p {
+  line-height: 2;
 }
 
 .container {
@@ -274,13 +277,13 @@ h1 {
 }
 
 .catalog-filter-label {
-  padding: 30px 70px 30px 60px;
+  padding: 26px 70px 26px 60px;
   margin: 0px;
 }
 
 div.catalog-wrapper-sort-label {
   background: #efefef;
-  padding: 25px 0px 25px 70px;
+  padding: 24px 0px 24px 70px;
 }
 
 .catalog-row-1 h2 {
@@ -288,12 +291,13 @@ div.catalog-wrapper-sort-label {
   color: rgb(0, 0, 0);
   font-size: 16px;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 h2.catalog-wrapper-sort-label {
   float: left;
   margin: 0px;
-  padding: 0px 20px 0px 0px;
+  padding: 0px 30px 0px 0px;
 }
 
 .catalog-goods {
@@ -460,6 +464,8 @@ footer .user-menu a:active {
 
 .catalog-wrapper-sort-order li {
   float: left;
+  padding: 0px;
+  margin: 0px;
 }
 
 .developer-logo {
@@ -612,12 +618,12 @@ footer .user-menu a:active {
   display: inline-block;
   float: left;
   margin: 0px;
-  padding: 0px;
+  padding: 1px 0px;
   color: rgba(0, 0, 0, 0.3);
   font-size: 14px;
   font-family: "Open sans", "Arial", sans-serif;
   letter-spacing: 0;
-  line-height: 1.2;
+  line-height: 18px;
 }
 
 .catalog-wrapper-sort-value a:hover {
@@ -639,7 +645,7 @@ footer .user-menu a:active {
 
 .catalog-wrapper-sort-value li {
   float: left;
-  padding: 0px 0px 0px 4px;
+  padding: 0px 10px 0px 20px;
   margin: 0px;
 }
 
@@ -752,7 +758,6 @@ ul.bluetooth {
 
 .home-popular-item {
   width: 160px;
-  display: inline-block;
   float: left;
   list-style: none;
   margin-right: 40px;
@@ -844,7 +849,6 @@ ul.companies-list li {
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.2;
-  margin-top: 40px;
   text-decoration: none;
 }
 
@@ -1243,9 +1247,7 @@ p {
   margin-bottom: 52px;
 }
 .grey-bg {
-  background-image: url("../img/grey-bg.png");
-  background-repeat: repeat-x;
-  background-position: bottom;
+    background: linear-gradient(0deg, rgb(239, 239, 239) 290px, rgb(256, 256, 256) 290px);
 }
 .home-services {
   padding-bottom: 32px;
@@ -1349,10 +1351,12 @@ p {
   font-size: 0px;
   border: none;
   width: 20px;
-  height: 20px;
+  height: 18px;
   background: url("../img/sort-up.png") no-repeat 50% 50%;
   opacity: 0.2;
   cursor: pointer;
+  padding: 0px;
+  margin: 0px;
 }
 .catalog-wrapper-sort-order button.desc {
   background: url("../img/sort-down.png") no-repeat 50% 50%;
