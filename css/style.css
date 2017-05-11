@@ -492,7 +492,7 @@ footer .user-menu a:active {
   font-family: "Open Sans", "Arial", sans-serif;
   color: rgb(255, 255, 255);
   line-height: 30px;
-  font-weight: 100px;
+  font-weight: 100;
 }
 
 .footer-menu {
@@ -507,7 +507,7 @@ footer .user-menu a:active {
   font-family: "Open Sans", "Arial", sans-serif;
   color: rgb(255, 255, 255);
   line-height: 30px;
-  font-weight: 100px;
+  font-weight: 100;
 }
 
 .footer-social {
@@ -625,7 +625,7 @@ footer .user-menu a:active {
 .catalog-sort {
   float: left;
   width: auto;
-  display: blck;
+  display: block;
 }
 
 .catalog-wrapper-sort-value {
@@ -1142,7 +1142,7 @@ ul.companies-list li {
 .footer-social a {
   text-decoration: none;
   font-size: 0px;
-  text-align: top;
+  vertical-align: top;
   background-image: url("../img/social.png");
   width: 39px;
   height: 38px;
@@ -1198,8 +1198,6 @@ ul.companies-list li {
   margin: -0px 0px 0px 0px;
 }
 
-
-}
 .home-info-read-more {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -1268,7 +1266,7 @@ ul.companies-list li {
   margin-bottom: 55px;
 }
 .grey-bg {
-  background: linear-gradient(0deg, rgb(229, 229, 229) 285px, rgb(256, 256, 256) 250px);
+  background: linear-gradient(0deg, rgb(229, 229, 229) 285px, rgb(255, 255, 255) 250px);
 }
 .home-services {
   padding-bottom: 51px;
@@ -1631,7 +1629,7 @@ ul.companies-list li {
   top: 12px;
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 22, 27px;
+  line-height: 22.27px;
   letter-spacing: 0;
   font-weight: 100;
   width: 60px;
@@ -1655,7 +1653,7 @@ ul.companies-list li {
   font-size: 14px;
   line-height: 1.2;
   font-weight: 900;
-  letter-spacing: 0.05;
+  letter-spacing: 0.05em;
   padding: 20px 0px;
 }
 .popup {
@@ -1754,10 +1752,12 @@ ul.companies-list li {
 .write-us-form input:invalid {
   background: rgba(237, 181, 181, 0.5);
 }
+
 .write-us-form-col {
   width: 50%;
   float: left;
 }
+
 .good-name {
   margin-top: 35px;
   margin-bottom: 30px;
