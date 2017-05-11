@@ -1488,6 +1488,19 @@ ul.companies-list li {
 .filter-ul {
   margin: 0px;
   padding: 0px;
+  list-style: none;
+}
+
+.filter-ul li{
+  padding: 10px 0px;
+  margin: 0px auto 0px;
+}
+
+.filter-ul label{
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px; 
+  line-height: 40px;
+  letter-spacing: 0.01em;
 }
 .filter-ul input[type=radio] {
   display: none;
@@ -1497,7 +1510,7 @@ ul.companies-list li {
   border: 2px solid rgb(198, 198, 198);
   display: inline-block;
   border-radius: 11px;
-  margin: 0px 10px -5px 0px;
+  margin: 0px 10px 0px 0px;
   cursor: pointer;
 }
 .filter-ul input[type=radio]+span>span {
@@ -1527,12 +1540,12 @@ ul.companies-list li {
   padding: 5px;
   background: rgb(219, 219, 219);
   display: inline-block;
-  margin: 0px 10px -5px 0px;
+  margin: 0px 17px -5px 0px;
   cursor: pointer;
 }
 .filter-ul input[type=checkbox]~label>span>span {
-  width: 9px;
-  height: 9px;
+  width: 10px;
+  height: 10px;
   display: block;
 }
 .filter-ul input[type=checkbox]:checked~label>span {
