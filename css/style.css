@@ -300,13 +300,14 @@ h1 {
 
 div.catalog-wrapper-sort-label {
   background: #efefef;
-  padding: 24px 0px 24px 70px;
+  padding: 25px 0px 26px 70px;
 }
 
 .catalog-row-1 h2 {
   line-height: 1.2;
   color: rgb(0, 0, 0);
   font-size: 16px;
+  font-weight: 900;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
@@ -314,17 +315,17 @@ div.catalog-wrapper-sort-label {
 h2.catalog-wrapper-sort-label {
   float: left;
   margin: 0px;
-  padding: 0px 30px 0px 0px;
+  padding: 0px 55px 0px 0px;
 }
 
 .catalog-goods {
-  padding: 70px 0px 0px 70px;
+  padding: 60px 0px 0px 70px;
 }
 
 .catalog-good {
   width: 360px;
   min-height: 462px;
-  margin: 0px 40px 40px 0px;
+  margin: 10px 40px 10px 0px;
   float: left;
   position: relative;
 }
@@ -343,7 +344,7 @@ h2.catalog-wrapper-sort-label {
   display: inline-block;
   text-align: center;
   background: rgb(235, 235, 235);
-  margin: 0px 0px 75px 70px;
+  margin: 0px 0px 73px 70px;
   line-height: 70px;
 }
 
@@ -485,7 +486,7 @@ footer .user-menu a:active {
 .catalog-wrapper-sort-order li {
   float: left;
   padding: 0px;
-  margin: 0px;
+  margin: -4px 0px 0px 22px;
 }
 
 .developer-logo {
@@ -668,7 +669,7 @@ footer .user-menu a:active {
 
 .catalog-wrapper-sort-value li {
   float: left;
-  padding: 0px 10px 0px 20px;
+  padding: 0px 30px 0px 0px;
   margin: 0px;
 }
 
@@ -676,10 +677,11 @@ footer .user-menu a:active {
   float: right;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.01em;
   font-family: "Gilroy", "Arial", sans-serif;
   text-decoration: none;
   color: rgb(70, 70, 70);
-  padding-top: 4px;
+  padding-top: 0px;
 }
 
 .pages {
@@ -1470,6 +1472,7 @@ ul.companies-list li {
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
   font-weight: 900;
+  text-transform: uppercase;
 }
 .pages a {
   color: rgba(0, 0, 0, 0.3);
@@ -1486,13 +1489,13 @@ ul.companies-list li {
   margin: 40px 0px 0px 0px;
 }
 .filter-ul {
-  margin: 0px;
+  margin: -10px;
   padding: 0px;
   list-style: none;
 }
 
 .filter-ul li{
-  padding: 10px 0px;
+  padding: 0px 10px;
   margin: 0px auto 0px;
 }
 
@@ -1510,7 +1513,7 @@ ul.companies-list li {
   border: 2px solid rgb(198, 198, 198);
   display: inline-block;
   border-radius: 11px;
-  margin: 0px 10px 0px 0px;
+  margin: 0px 18px -4px 0px;
   cursor: pointer;
 }
 .filter-ul input[type=radio]+span>span {
@@ -1544,8 +1547,8 @@ ul.companies-list li {
   cursor: pointer;
 }
 .filter-ul input[type=checkbox]~label>span>span {
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   display: block;
 }
 .filter-ul input[type=checkbox]:checked~label>span {
@@ -1573,7 +1576,7 @@ ul.companies-list li {
   font-weight: bold;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
-  margin-top: 35px;
+  margin-top: 31px;
   border: none;
   cursor: pointer;
   outline: none;
@@ -1661,8 +1664,8 @@ ul.companies-list li {
 .catalog-good.new::after {
   content: "NEW";
   position: absolute;
-  top: 30px;
-  right: 20px;
+  top: 27px;
+  right: 26px;
   color: rgba(0, 0, 0, 0.2);
   border: 2px solid rgba(0, 0, 0, 0.1);
   width: 56px;
@@ -1779,4 +1782,8 @@ ul.companies-list li {
 .good-name {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.filter-ul.bluetooth li {
+  padding: 3px 8px 1px 7px;
 }
