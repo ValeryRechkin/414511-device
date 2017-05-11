@@ -1754,9 +1754,8 @@ ul.companies-list li {
   outline: none;
   box-shadow: inset 0px 0px 0px 3px rgba(240, 197, 46, 0.5);
 }
-.write-us-form input:invalid {
+/*.write-us-form input:invalid {
   background: rgba(237, 181, 181, 0.5);
-}
 
 .write-us-form-col {
   width: 50%;
