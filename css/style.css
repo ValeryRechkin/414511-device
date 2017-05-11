@@ -38,7 +38,13 @@ body {
 }
 
 p {
-  line-height: 2;
+  font-size: 15px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: rgb(70, 70, 70);
+  line-height: 30px;
+  text-align: left;
+  font-weight: normal;
+  letter-spacing: 0em;
 }
 
 .container {
@@ -67,7 +73,7 @@ h2 {
 }
 
 .home-info-about-us h2 {
-  margin: 30px 0px 60px 0px;
+  margin: -14px 0px 38px -1px;
   line-height: 1.2;
 }
 
@@ -76,10 +82,10 @@ h2 {
   font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  line-height: 40px;
+  line-height: 1.2;
   margin-top: 0px;
-  margin-bottom: 37px;
-  letter-spacing: 0.01;
+  margin-bottom: 27px;
+  letter-spacing: 0.03em;
 }
 
 .device-logo {
@@ -110,7 +116,7 @@ footer a:active {
 }
 
 header .device-logo {
-  margin-left: 60px;
+  margin-left: 58px;
   text-decoration: none;
   font-size: 48px;
   font-family: "Gilroy", "Arial", sans-serif;
@@ -187,8 +193,9 @@ a.slide-read-more {
   display: block;
   text-decoration: none;
   width: 220px;
-  margin-top: 47px;
-  margin-bottom: 50px;
+  margin-top: 45px;
+  margin-left: 2px;
+  margin-bottom: 52px;
   padding: 9px 0px;
   letter-spacing: 0.2em;
 }
@@ -217,6 +224,9 @@ a:active.slide-read-more {
   line-height: 20px;
   font-weight: 100;
   text-align: left;
+  display: block;
+  margin-top: 10px;
+  margin-left: 1px;
 }
 
 header {
@@ -232,7 +242,7 @@ header {
 
 .header-up {
   margin: 0 auto;
-  padding: 0 60px;
+  padding: 0px 60px 0px 63px;
 }
 
 .heder-up-search {
@@ -719,7 +729,7 @@ footer .user-menu a:active {
   padding: 30px 70px 70px 60px;
 }
 
-.catalog-filter-form label {
+.catalog-filter-form span {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 40px;
@@ -742,15 +752,16 @@ ul.bluetooth {
 
 .home-services-menu {
   width: 279px;
-  padding: 69px 0px 55px 0px;
+  padding: 78px 0px 48px 0px;
   float: left;
   list-style: none;
   border-right: #000 solid 7px;
+  margin-left: -2px;
 }
 
 .home-services-description {
   width: 700px;
-  padding: 75px 58px 0px 115px;
+  padding: 68px 58px 0px 115px;
   float: left;
   list-style: none;
   min-height: 237px;
@@ -773,7 +784,7 @@ ul.bluetooth {
 }
 
 .companies-list {
-  margin: 50px 0px 72px 0px;
+  margin: 68px 0px 72px 0px;
   padding: 0px;
 }
 
@@ -787,7 +798,7 @@ ul.companies-list li {
   font-weight: bold;
   background-image: url("../img/circle-30.png");
   list-style: none;
-  padding-left: 25px;
+  padding-left: 35px;
   background-repeat: no-repeat;
   background-position: 0px 50%;
 }
@@ -803,12 +814,13 @@ ul.companies-list li {
 
 .home-info-about-us p,
 .home-info-contact p {
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 29px 0px;
   font-size: 15px;
   font-family: "Open Sans", "Arial", sans-serif;
   color: rgb(70, 70, 70);
   line-height: 30px;
   text-align: left;
+  letter-spacing: 0em;
 }
 
 .home-info-map {
@@ -817,8 +829,13 @@ ul.companies-list li {
 
 .home-services-menu li {
   width: 150px;
-  padding: 10px 120px 10px 0px;
+  padding: 0px 120px 20px 0px;
   text-align: center;
+  margin-left: 3px;
+}
+
+.home-services-menu li:first-child {
+  padding-bottom: 25px;
 }
 
 .home-services-description li {
@@ -829,7 +846,7 @@ ul.companies-list li {
 
 .home-services-description li.delivery {
   background-image: url("../img/delivery.png");
-  background-position: 560px 2px;
+  background-position: 560px 17px;
 }
 
 .home-services-description li.warranty {
@@ -886,8 +903,10 @@ ul.companies-list li {
 
 .slider-indicators {
   position: absolute;
-  right: 60px;
-  bottom: 148px;
+  right: 66px;
+  bottom: 147px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .slider-indicators li {
@@ -895,8 +914,7 @@ ul.companies-list li {
   padding: 0px;
   margin: 0px;
   float: left;
-  width: 20px;
-  height: 20px;
+  width: 33px;
 }
 
 .catalog-column-1 {
@@ -935,11 +953,11 @@ ul.companies-list li {
   font-weight: normal;
   line-height: 2.4;
   border: 0px;
-  margin: 0px;
+  margin: -6px 0px 6px 0px;
   height: 48px;
   width: 269px;
   color: rgba(0, 0, 0, 0.3);
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 36px;
   box-sizing: content-box;
   background: url("../img/search.png") no-repeat left center;
   border-bottom: 2px solid rgba(0, 0, 0, 0);
@@ -1163,7 +1181,7 @@ ul.companies-list li {
   background-position: 0 50%;
   display: block;
   line-height: 40px;
-  width: 160px;
+  width: 162px;
   height: 40px;
   margin-bottom: 5px;
 }
@@ -1177,17 +1195,10 @@ ul.companies-list li {
   color: rgb(247, 225, 132);
   background: black;
   padding-right: 120px;
+  margin: -0px 0px 0px 0px;
 }
 
 
-}
-p {
-  font-size: 15px;
-  font-family: "Open Sans", "Arial", sans-serif;
-  color: rgb(70, 70, 70);
-  line-height: 30px;
-  text-align: left;
-  font-weight: normal;
 }
 .home-info-read-more {
   color: rgb(0, 0, 0);
@@ -1253,14 +1264,14 @@ p {
   background: rgb(0, 0, 0);
   width: 80px;
   height: 8px;
-  margin-top: 93px;
+  margin-top: 92px;
   margin-bottom: 55px;
 }
 .grey-bg {
-  background: linear-gradient(0deg, rgb(239, 239, 239) 285px, rgb(256, 256, 256) 250px);
+  background: linear-gradient(0deg, rgb(229, 229, 229) 285px, rgb(256, 256, 256) 250px);
 }
 .home-services {
-  padding-bottom: 50px;
+  padding-bottom: 51px;
   margin-bottom: 94px;
 }
 .slide-features {
@@ -1280,14 +1291,14 @@ p {
   width: 13px;
   height: 12px;
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 7px;
   color: rgb(0, 0, 0);
   opacity: 1;
   background-repeat: no-repeat;
   background-position: center;
 }
 .login .black-icon {
-  margin-right: 14px;
+  margin-right: 12px;
 }
 .header-up-user-menu a:hover .black-icon {
   opacity: 0.6;
