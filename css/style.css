@@ -536,6 +536,10 @@ footer .user-menu a:active {
   display: inline-block;
 }
 
+.header-up-user-menu li.name  {
+  margin-right: 16px;
+}
+
 .header-up-user-menu li.login {
   width: 246px;
 }
@@ -575,14 +579,15 @@ footer .user-menu a:active {
 }
 
 .subnavigation-list {
-  display: none;
+  display:none;
   position: absolute;
   width: 1040px;
-  padding: 40px 60px;
+  padding: 20px 60px 35px 60px;
   left: -60px;
   background: rgb(247, 226, 150);
   z-index: 1000;
   list-style: none;
+  letter-spacing: -0.2px;
 }
 
 .main-navigation-list-item:hover .subnavigation-list {
@@ -845,6 +850,10 @@ ul.companies-list li {
   padding-bottom: 25px;
 }
 
+.home-services-menu li:last-child {
+  margin-top: 6px;
+}
+
 .home-services-description li {
   padding: 0px 240px 0px 0px;
   display: none;
@@ -987,7 +996,7 @@ ul.companies-list li {
 .search.focus input.button,
 .search input[name="search-string"]:focus~input.button {
   padding: 0px;
-  margin: 0px;
+  margin: -6px 0px 0px 0px;
   display: inline-block;
   width: 85px;
   height: 46px;
@@ -1191,7 +1200,6 @@ ul.companies-list li {
   line-height: 40px;
   width: 162px;
   height: 40px;
-  margin-bottom: 5px;
 }
 
 .home-services-menu li a:hover {
@@ -1292,6 +1300,7 @@ ul.companies-list li {
 }
 .logout a {
   color: rgba(0, 0, 0, 0.3);
+  margin-right: 23px;
 }
 .header-up-user-menu .black-icon {
   width: 13px;
@@ -1363,7 +1372,7 @@ ul.companies-list li {
 }
 .subnavigation-list-category {
   float: left;
-  margin: 0px 40px 0px 0px;
+  margin: 0px 59px 0px 0px;
   padding: 0px;
 }
 .subnavigation-list-category ul {
@@ -1372,7 +1381,7 @@ ul.companies-list li {
   margin: 0px;
 }
 .subnavigation-list-category:last-child {
-  margin-right: 0px;
+  margin: 0px 0px 0px 17px;
 }
 .subnavigation-list-category a:hover {
   color: rgba(0, 0, 0, 0.6);
@@ -1787,3 +1796,11 @@ ul.companies-list li {
 .filter-ul.bluetooth li {
   padding: 3px 8px 1px 7px;
 }
+
+
+
+
+
+
+
+
