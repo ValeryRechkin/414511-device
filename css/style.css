@@ -1878,6 +1878,7 @@ ul.companies-list li {
 }
 
 .popup.map {
+  margin-top: -280px;  
   background: url("../img/map-big.png") no-repeat 50% 50%;
 }
 
