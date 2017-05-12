@@ -1686,6 +1686,35 @@ ul.companies-list li {
   letter-spacing: 0.05em;
   padding: 20px 0px;
 }
+/* Всплывающая форма */
+
+@keyframes bounce {
+  0%   {
+    transform: translateY(-2000px);
+  }
+  70%  {
+    transform: translateY(30px);
+  }
+  90%  {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
 .popup {
   display: none;
   width: 960px;
@@ -1699,6 +1728,7 @@ ul.companies-list li {
   background: rgb(255, 255, 255);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
+
 .popup.map {
   background: url("../img/map-big.png") no-repeat 50% 50%;
 }
@@ -1734,6 +1764,12 @@ ul.companies-list li {
 }
 .popup.active {
   display: block;
+  animation: bounce 0.6s;  
+}
+
+
+.popup.error {
+  animation: shake 0.6s;
 }
 .write-us-form {
   margin: 80px;
@@ -1779,9 +1815,11 @@ ul.companies-list li {
   outline: none;
   box-shadow: inset 0px 0px 0px 3px rgba(240, 197, 46, 0.5);
 }
-/*.write-us-form input:invalid {
-  background: rgba(237, 181, 181, 0.5);
-}*/
+.write-us-form input[type=text].error,
+.write-us-form input[type=email].error,
+.write-us-form textarea.error {
+  background-color: rgba(237, 181, 181, 0.5);
+}
 
 .write-us-form-col {
   width: 50%;
