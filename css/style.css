@@ -1997,3 +1997,8 @@ ul.companies-list li {
 .filter-ul.bluetooth li {
   padding: 3px 8px 1px 7px;
 }
+.map iframe {
+  border: 0px;
+}
+
+
