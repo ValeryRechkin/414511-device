@@ -72,7 +72,7 @@ h2 {
   background: url("../img/line-white.png") no-repeat left top;
 }
 
-.home-info-about-us h2, 
+.home-info-about-us h2,
 .home-info-contact h2 {
   margin: -14px 0px 38px -1px;
   line-height: 1.2;
@@ -536,7 +536,7 @@ footer .user-menu a:active {
   display: inline-block;
 }
 
-.header-up-user-menu li.name  {
+.header-up-user-menu li.name {
   margin-right: 16px;
 }
 
@@ -579,7 +579,7 @@ footer .user-menu a:active {
 }
 
 .subnavigation-list {
-  display:none;
+  display: none;
   position: absolute;
   width: 1040px;
   padding: 20px 60px 35px 60px;
@@ -728,6 +728,7 @@ footer .user-menu a:active {
 .search {
   width: 400px;
   float: left;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -821,8 +822,6 @@ ul.companies-list li {
 .home-info {
   margin: 0px 0px 83px 0px;
 }
-
-
 
 .home-info-about-us p,
 .home-info-contact p {
@@ -974,6 +973,7 @@ ul.companies-list li {
   width: 269px;
   color: rgba(0, 0, 0, 0.3);
   padding: 0px 0px 0px 36px;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   background: url("../img/search.png") no-repeat left center;
   border-bottom: 2px solid rgba(0, 0, 0, 0);
@@ -1007,6 +1007,7 @@ ul.companies-list li {
   line-height: 36px;
   text-align: center;
   cursor: pointer;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   background: transparent;
 }
@@ -1231,16 +1232,20 @@ ul.companies-list li {
   width: 260px;
   padding: 9px 0px;
 }
+
 .home-info-read-more:hover {
   background-repeat: repeat;
 }
+
 .home-info-read-more:active {
   background-repeat: repeat;
   color: rgba(0, 0, 0, 0.3);
 }
+
 .home-popular-item a:active .text {
   opacity: 0.3;
 }
+
 .user-menu a .action-icon {
   width: 13px;
   height: 12px;
@@ -1251,22 +1256,28 @@ ul.companies-list li {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .user-menu a:hover .action-icon {
   opacity: 1;
 }
+
 .user-menu a:active .action-icon {
   opacity: 0.3;
 }
+
 .logout .action-icon,
 .login .action-icon {
   background-image: url("../img/user.png");
 }
+
 .compare .action-icon {
   background-image: url("../img/compare.png");
 }
+
 .cart .action-icon {
   background-image: url("../img/cart.png");
 }
+
 .yellow-line {
   float: left;
   background: rgb(255, 198, 0);
@@ -1274,6 +1285,7 @@ ul.companies-list li {
   height: 8px;
   margin-top: 4px;
 }
+
 .black-line {
   background: rgb(0, 0, 0);
   width: 80px;
@@ -1281,27 +1293,33 @@ ul.companies-list li {
   margin-top: 92px;
   margin-bottom: 55px;
 }
+
 .grey-bg {
   background: linear-gradient(0deg, rgb(229, 229, 229) 285px, rgb(255, 255, 255) 250px);
 }
+
 .home-services {
   padding-bottom: 51px;
   margin-bottom: 94px;
 }
+
 .slide-features {
   float: left;
   width: 460px;
   margin: 0px;
   padding: 0px;
 }
+
 .name .black-icon,
 .login .black-icon {
   background-image: url("../img/user_black.png");
 }
+
 .logout a {
   color: rgba(0, 0, 0, 0.3);
   margin-right: 23px;
 }
+
 .header-up-user-menu .black-icon {
   width: 13px;
   height: 12px;
@@ -1312,27 +1330,34 @@ ul.companies-list li {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .login .black-icon {
   margin-right: 12px;
 }
+
 .header-up-user-menu a:hover .black-icon {
   opacity: 0.6;
 }
+
 .header-up-user-menu a:active .black-icon {
   opacity: 0.3;
 }
+
 .compare .black-icon {
   background-image: url("../img/compare_black.png");
 }
+
 .cart .black-icon {
   background-image: url("../img/cart_black.png");
 }
+
 .slide-info {
   float: left;
   width: 520px;
   margin-left: 20px;
   position: relative;
 }
+
 .slider-indicators li button {
   width: 20px;
   height: 20px;
@@ -1343,13 +1368,16 @@ ul.companies-list li {
   border: none;
   cursor: pointer;
 }
+
 .slider-indicators li button:hover {
   opacity: 0.4;
 }
+
 .slider-indicators li.active button,
 .slider-indicators li button:active {
   opacity: 1;
 }
+
 .slide-img {
   float: left;
   width: 580px;
@@ -1357,35 +1385,44 @@ ul.companies-list li {
   margin: 0px;
   padding: 0px;
 }
+
 .main-navigation-list-item.catalog-menu>a {
   padding-right: 28px;
   background: url("../img/plus.png") no-repeat 100% 50%;
 }
+
 .main-navigation-list-item.catalog-menu>a:hover {
   opacity: 0.6;
 }
+
 .main-navigation-list-item.catalog-menu a:active {
   opacity: 0.3;
 }
+
 .main-navigation-list-item.catalog-menu {
   position: relative;
 }
+
 .subnavigation-list-category {
   float: left;
   margin: 0px 59px 0px 0px;
   padding: 0px;
 }
+
 .subnavigation-list-category ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
+
 .subnavigation-list-category:last-child {
   margin: 0px 0px 0px 17px;
 }
+
 .subnavigation-list-category a:hover {
   color: rgba(0, 0, 0, 0.6);
 }
+
 .catalog-wrapper-sort-order button {
   font-size: 0px;
   border: none;
@@ -1397,16 +1434,20 @@ ul.companies-list li {
   padding: 0px;
   margin: 0px;
 }
+
 .catalog-wrapper-sort-order button.desc {
   background: url("../img/sort-down.png") no-repeat 50% 50%;
 }
+
 .catalog-wrapper-sort-order button:hover {
   opacity: 0.4;
 }
+
 .catalog-wrapper-sort-order .active button,
 .catalog-wrapper-sort-order button:active {
   opacity: 1;
 }
+
 .good-action {
   position: absolute;
   top: 0px;
@@ -1417,10 +1458,12 @@ ul.companies-list li {
   text-align: center;
   display: none;
 }
+
 .good-action a {
   display: block;
   text-decoration: none;
 }
+
 .good-action-cart {
   width: 170px;
   margin: 174px auto 16px auto;
@@ -1436,13 +1479,16 @@ ul.companies-list li {
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
+
 .good-action-cart:hover {
   background-repeat: repeat;
 }
+
 .good-action-cart:active {
   background-repeat: repeat;
   color: rgba(0, 0, 0, 0.3);
 }
+
 .good-action-compare {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 13px;
@@ -1450,12 +1496,15 @@ ul.companies-list li {
   color: rgba(0, 0, 0, 0.5);
   margin: 0 auto;
 }
+
 .good-action-compare:hover {
   color: rgba(0, 0, 0, 1);
 }
+
 .good-action-compare:active {
   color: rgba(0, 0, 0, 0.2);
 }
+
 .good-name-link {
   font-size: 18px;
   font-family: "Gilroy", "Arial", sans-serif;
@@ -1464,6 +1513,7 @@ ul.companies-list li {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
 .catalog-wrapper-sort-value a {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
@@ -1472,6 +1522,7 @@ ul.companies-list li {
   letter-spacing: 0px;
   text-decoration: none;
 }
+
 .catalog-paginator a,
 .pages .active {
   font-family: "Gilroy", "Arial", sans-serif;
@@ -1483,9 +1534,11 @@ ul.companies-list li {
   font-weight: 900;
   text-transform: uppercase;
 }
+
 .pages a {
   color: rgba(0, 0, 0, 0.3);
 }
+
 .filter-label-with-border {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
@@ -1497,26 +1550,29 @@ ul.companies-list li {
   padding: 12px 0px 29px 0px;
   margin: 40px 0px 0px 0px;
 }
+
 .filter-ul {
   margin: -10px;
   padding: 0px;
   list-style: none;
 }
 
-.filter-ul li{
+.filter-ul li {
   padding: 0px 10px;
   margin: 0px auto 0px;
 }
 
-.filter-ul label{
+.filter-ul label {
   font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px; 
+  font-size: 14px;
   line-height: 40px;
   letter-spacing: 0.01em;
 }
+
 .filter-ul input[type=radio] {
   display: none;
 }
+
 .filter-ul input[type=radio]+span {
   padding: 5px;
   border: 2px solid rgb(198, 198, 198);
@@ -1525,6 +1581,7 @@ ul.companies-list li {
   margin: 0px 18px -4px 0px;
   cursor: pointer;
 }
+
 .filter-ul input[type=radio]+span>span {
   width: 5px;
   height: 5px;
@@ -1532,22 +1589,28 @@ ul.companies-list li {
   border: 2px solid rgba(0, 0, 0, 0);
   border-radius: 5px;
 }
+
 .filter-ul input[type=radio]+span:hover {
   border-color: rgb(188, 188, 188);
 }
+
 .filter-ul input[type=radio]+span:active {
   border-color: rgb(172, 172, 172);
 }
+
 .filter-ul input[type=radio]:checked+span>span,
 .filter-ul input[type=radio]+span:active>span {
   border: 2px solid rgba(0, 0, 0, 1);
 }
+
 .filter-ul input[type=radio]:checked+span:active>span {
   border: 2px solid rgba(0, 0, 0, 0);
 }
+
 .filter-ul input[type=checkbox] {
   display: none;
 }
+
 .filter-ul input[type=checkbox]~label>span {
   padding: 5px;
   background: rgb(219, 219, 219);
@@ -1555,24 +1618,30 @@ ul.companies-list li {
   margin: 0px 17px -5px 0px;
   cursor: pointer;
 }
+
 .filter-ul input[type=checkbox]~label>span>span {
   width: 9px;
   height: 9px;
   display: block;
 }
+
 .filter-ul input[type=checkbox]:checked~label>span {
   background: rgb(196, 196, 196);
 }
+
 .filter-ul input[type=checkbox]~label>span:hover {
   background: rgb(206, 206, 206);
 }
+
 .filter-ul input[type=checkbox]:checked~label>span>span,
 .filter-ul input[type=checkbox]~label>span:active>span {
   background: url("../img/tick.png") no-repeat 50% 50%;
 }
+
 .filter-ul input[type=checkbox]:checked~label>span:active>span {
   background: none;
 }
+
 .catalog-filter-form input[type=submit],
 .write-us-form-button {
   width: 200px;
@@ -1590,29 +1659,38 @@ ul.companies-list li {
   cursor: pointer;
   outline: none;
 }
+
 .catalog-filter-form input[type=submit]:hover,
 .write-us-form-button:hover {
   background-repeat: repeat;
 }
+
 .catalog-filter-form input[type=submit]:active,
 .write-us-form-button:active {
   background-repeat: repeat;
   color: rgba(0, 0, 0, 0.3);
 }
+
 .search.focus {
   border-bottom: 1px solid rgb(0, 0, 0);
 }
+
 .catalog-row-2 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgb(239, 239, 239)), color-stop(50%, rgb(255, 255, 255)));
   background: linear-gradient(90deg, rgb(239, 239, 239) 50%, rgb(255, 255, 255) 50%);
 }
+
 .catalog-row-1 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgb(220, 220, 220)), color-stop(50%, rgb(239, 239, 239)));
   background: linear-gradient(90deg, rgb(220, 220, 220) 50%, rgb(239, 239, 239) 50%);
 }
+
 .header-background {
   background: rgb(247, 226, 150);
   width: 1160px;
   padding: 0px;
 }
+
 .good-name h3 {
   padding: 0px;
   margin: 0px;
@@ -1622,17 +1700,20 @@ ul.companies-list li {
   float: left;
   width: 260px;
 }
+
 .price-range-background {
   background: rgb(219, 219, 219);
   height: 2px;
   margin: 6px 0px 67px 0px;
 }
+
 .price-range {
   background: rgb(145, 201, 47);
   height: 2px;
   width: 62%;
   position: relative;
 }
+
 .price-range-pointer {
   height: 10px;
   width: 10px;
@@ -1643,17 +1724,22 @@ ul.companies-list li {
   position: absolute;
   cursor: pointer;
 }
+
 .price-range-pointer.min {
   left: 0px;
 }
+
 .price-range-pointer.max {
   right: 0px;
 }
+
 .price-range-pointer:active {
   background: rgb(145, 201, 47);
   border-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
 }
+
 .price-range-label {
   position: absolute;
   top: 12px;
@@ -1667,9 +1753,11 @@ ul.companies-list li {
   margin: 0px;
   padding: 0px;
 }
+
 .price-range-label.max {
   left: -25px;
 }
+
 .catalog-good.new::after {
   content: "NEW";
   position: absolute;
@@ -1686,31 +1774,90 @@ ul.companies-list li {
   letter-spacing: 0.05em;
   padding: 20px 0px;
 }
+
+
 /* Всплывающая форма */
 
-@keyframes bounce {
-  0%   {
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px);
   }
-  70%  {
+  70% {
+    -webkit-transform: translateY(30px);
     transform: translateY(30px);
   }
-  90%  {
+  90% {
+    -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
   100% {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
 
-@keyframes shake {
-  0%, 100% {
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  70% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+  90% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
     transform: translateX(0);
   }
-  10%, 30%, 50%, 70%, 90% {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
-  20%, 40%, 60%, 80% {
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
     transform: translateX(10px);
   }
 }
@@ -1726,12 +1873,14 @@ ul.companies-list li {
   margin-left: -480px;
   margin-top: -250px;
   background: rgb(255, 255, 255);
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .popup.map {
   background: url("../img/map-big.png") no-repeat 50% 50%;
 }
+
 .popup-overlay {
   position: fixed;
   overflow: auto;
@@ -1741,9 +1890,11 @@ ul.companies-list li {
   height: 100%;
   display: none;
 }
+
 .popup-overlay.active {
   display: block;
 }
+
 .popup-close {
   width: 54.6px;
   height: 54.6px;
@@ -1757,23 +1908,28 @@ ul.companies-list li {
   cursor: pointer;
   outline: none;
 }
+
 .popup-close:hover,
 .popup-close:focus {
   outline: none;
   background: rgba(240, 197, 46, 1) url("../img/modal-close.png") no-repeat 50% 50%;
 }
+
 .popup.active {
   display: block;
-  animation: bounce 0.6s;  
+  -webkit-animation: bounce 0.6s;
+  animation: bounce 0.6s;
 }
-
 
 .popup.error {
+  -webkit-animation: shake 0.6s;
   animation: shake 0.6s;
 }
+
 .write-us-form {
   margin: 80px;
 }
+
 .write-us-form label {
   display: block;
   font-family: "Gilroy", "Arial", sans-serif;
@@ -1783,6 +1939,7 @@ ul.companies-list li {
   color: rgb(0, 0, 0);
   margin-bottom: 12px;
 }
+
 .write-us-form input[type=text],
 .write-us-form input[type=email],
 .write-us-form textarea {
@@ -1797,24 +1954,29 @@ ul.companies-list li {
   padding: 16px 22px;
   width: 316px;
 }
+
 .write-us-form textarea {
   width: 716px;
   height: 123px;
   margin-bottom: 7px;
 }
+
 .write-us-form input[type=text]:hover,
 .write-us-form input[type=email]:hover,
 .write-us-form textarea:hover {
   background-color: rgba(229, 229, 229, 0.8);
 }
+
 .write-us-form input[type=text]:focus,
 .write-us-form input[type=email]:focus,
 .write-us-form textarea:focus {
   background-color: rgb(255, 255, 255);
   color: rgba(70, 70, 70, 1);
   outline: none;
+  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(240, 197, 46, 0.5);
   box-shadow: inset 0px 0px 0px 3px rgba(240, 197, 46, 0.5);
 }
+
 .write-us-form input[type=text].error,
 .write-us-form input[type=email].error,
 .write-us-form textarea.error {
@@ -1834,11 +1996,3 @@ ul.companies-list li {
 .filter-ul.bluetooth li {
   padding: 3px 8px 1px 7px;
 }
-
-
-
-
-
-
-
-
