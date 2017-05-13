@@ -62,6 +62,7 @@
     var sliderIndicators = document.querySelectorAll(".slider-indicators button");
     [].forEach.call(sliderIndicators, function (slideButton, key) {
       slideButton.addEventListener("click", function (e) {
+        e.preventDefault();
         document.querySelectorAll(".slider-indicators .active")[0].classList.remove("active");
         document.querySelectorAll(".slide.active")[0].classList.remove("active");
         document.querySelectorAll(".slide")[key].classList.add("active");
