@@ -979,6 +979,63 @@ ul.companies-list li {
   border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
+.search input[name=search-string]::-webkit-input-placeholder 
+{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search input[name=search-string]::-moz-placeholder 
+{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search input[name=search-string]::-ms-placeholder 
+{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search input[name=search-string]::-ms-placeholder 
+{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search input[name=search-string]::placeholder 
+{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+
+.search input[name=search-string]:hover 
+{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search input[name=search-string]:hover::-webkit-input-placeholder 
+{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search input[name=search-string]:hover::-moz-placeholder 
+{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search input[name=search-string]:hover::-ms-placeholder 
+{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search input[name=search-string]:hover::-ms-placeholder 
+{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search input[name=search-string]:hover::placeholder 
+{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
 .search input[name=search-string]:focus {
   color: rgba(0, 0, 0, 1);
   border-bottom: 2px solid rgb(0, 0, 0);
@@ -987,10 +1044,6 @@ ul.companies-list li {
 
 .search input[name=search-string]:focus+input.button {
   /*display: block;*/
-}
-
-.search input[name=search-string]:hover {
-  color: rgba(0, 0, 0, 0.6);
 }
 
 .search.focus input.button,
