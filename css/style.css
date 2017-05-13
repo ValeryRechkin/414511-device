@@ -37,15 +37,7 @@ body {
   min-width: 1200px;
 }
 
-p {
-  font-size: 15px;
-  font-family: "Open Sans", "Arial", sans-serif;
-  color: rgb(70, 70, 70);
-  line-height: 30px;
-  text-align: left;
-  font-weight: 400;
-  letter-spacing: 0em;
-}
+
 
 .container {
   width: 1160px;
@@ -213,6 +205,7 @@ a:active.slide-read-more {
 .slide-features-large {
   font-size: 36px;
   font-family: "Gilroy", "Arial", sans-serif;
+  font-weight: 300;
   color: rgb(0, 0, 0);
   line-height: 1.2;
   text-align: left;
@@ -900,6 +893,13 @@ ul.companies-list li {
 }
 
 .slides p {
+  font-size: 15px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: rgb(70, 70, 70);
+  line-height: 30px;
+  text-align: left;
+  font-weight: 400;
+  letter-spacing: 0em;
   line-height: 2;
   margin: 0px;
   padding: 0px;
@@ -2055,3 +2055,7 @@ ul.companies-list li {
 }
 
 
+
+.login-link {
+  
+}
