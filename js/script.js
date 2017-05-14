@@ -70,3 +70,15 @@
         slideButton.parentElement.classList.add("active");
       })
     });
+
+    var serviceLinks = document.querySelectorAll(".home-services-menu a");
+    var serviceDescription = document.querySelectorAll(".home-services-description li");
+    [].forEach.call(serviceLinks, function (sLink, key) {
+      sLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(".home-services-menu li.active").classList.remove("active");
+        document.querySelector(".home-services-description li.active").classList.remove("active");        
+        sLink.parentElement.classList.add("active");
+        serviceDescription[key].classList.add("active");
+      });
+    });
