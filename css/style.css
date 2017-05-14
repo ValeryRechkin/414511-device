@@ -43,7 +43,7 @@ body {
   margin: 0px auto;
 }
 
-h2 {
+.home-info h2 {
   font-size: 47px;
   font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(0, 0, 0);
@@ -88,7 +88,7 @@ h2 {
   text-transform: uppercase;
 }
 
-footer .device-logo {
+.footer .device-logo {
   font-size: 48px;
   font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(255, 198, 0);
@@ -98,15 +98,15 @@ footer .device-logo {
   text-decoration: none;
 }
 
-footer a:hover {
+.footer a:hover {
   color: rgba(255, 198, 0, 0.6)
 }
 
-footer a:active {
+.footer a:active {
   color: rgba(255, 198, 0, 0.3)
 }
 
-header .device-logo {
+.header .device-logo {
   margin-left: 58px;
   text-decoration: none;
   font-size: 48px;
@@ -118,11 +118,11 @@ header .device-logo {
   text-transform: uppercase;
 }
 
-header a:hover {
+.header a:hover {
   color: rgba(0, 0, 0, 0.6)
 }
 
-header a:active {
+.header a:active {
   color: rgba(0, 0, 0, 0.3)
 }
 
@@ -221,7 +221,7 @@ a:active.slide-read-more {
   margin-left: 1px;
 }
 
-header {
+header.header {
   margin-top: 40px;
   padding: 0 20px;
 }
@@ -341,7 +341,7 @@ h2.catalog-wrapper-sort-label {
   line-height: 70px;
 }
 
-footer {
+footer.footer {
   background: #464646;
   color: #ffffff;
   padding: 52px 0px;
