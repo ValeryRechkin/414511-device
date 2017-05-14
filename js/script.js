@@ -10,7 +10,10 @@
     [].forEach.call(popuplinks, function (link) {
       link.addEventListener("click", function (e) {
         e.preventDefault();
-        var popupID = link.getAttribute("href");
+        var popupID = "#map-popup";
+        if (link.classList.contains("writeUsPopUp")) {
+          popupID = "#write-us-popup";
+        }
         var popup = document.querySelector(popupID);
         overlay.classList.add("active");
         popup.classList.add("active");
