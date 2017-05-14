@@ -259,7 +259,7 @@ header {
 }
 
 .title {
-  padding: 33px 0px 37px 60px;
+  padding: 33px 0px 40px 60px;
 }
 
 h1 {
@@ -535,11 +535,11 @@ footer .user-menu a:active {
 }
 
 .header-up-user-menu li.name {
-  margin-right: 16px;
+  margin-right: 27px;
 }
 
 .header-up-user-menu li.login {
-  width: 246px;
+  width: 251px;
 }
 
 .header-up-user-menu li:last-child {
@@ -1641,7 +1641,7 @@ ul.companies-list li {
   padding: 5px;
   border: 2px solid rgb(198, 198, 198);
   display: inline-block;
-  vertical-align: top;
+  vertical-align: baseline;
   border-radius: 11px;
   margin: 0px 18px -4px 0px;
   cursor: pointer;
@@ -1680,7 +1680,7 @@ ul.companies-list li {
   padding: 5px;
   background: rgb(219, 219, 219);
   display: inline-block;
-  vertical-align: top;
+  vertical-align: baseline;
   margin: 0px 17px -5px 0px;
   cursor: pointer;
 }
