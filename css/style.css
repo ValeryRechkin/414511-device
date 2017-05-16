@@ -262,7 +262,7 @@ header.header {
   padding: 33px 0px 40px 60px;
 }
 
-h1 {
+.page-title {
   font-family: "Gilroy", "Arial", sans-serif;
   font-weight: 900;
   font-size: 47px;
