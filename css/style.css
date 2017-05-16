@@ -1593,8 +1593,7 @@ ul.companies-list li {
 }
 
 .catalog-paginator a,
-.pages .active,
-.pages a:active {
+.pages .active {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.2;
@@ -1611,6 +1610,10 @@ ul.companies-list li {
 
 .pages a:hover {
   color: rgba(0, 0, 0, 0.6);
+}
+
+.pages a:active {
+  color: rgba(0, 0, 0, 1);
 }
 
 .filter-label-with-border {
