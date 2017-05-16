@@ -432,6 +432,7 @@ footer .user-menu a {
   text-decoration: none;
 }
 
+
 footer .user-menu a:hover {
   color: rgb(255, 255, 255);
 }
@@ -459,6 +460,10 @@ footer .user-menu a:active {
 
 .user-menu li:first-child {
   margin-right: 45px;
+}
+
+.user-menu li.logout:first-child {
+  margin-right: 18px;
 }
 
 .footer-social li {
