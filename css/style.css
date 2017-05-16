@@ -320,6 +320,7 @@ h2.catalog-wrapper-sort-label {
   margin: 10px 35px 10px 0px;
   display: inline-block;
   position: relative;
+  vertical-align: top;
 }
 
 .catalog-good:hover .good-action {
