@@ -2028,7 +2028,7 @@ ul.companies-list li {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  font-weight: 900;
+  font-weight: 400;
   color: rgba(70, 70, 70, 0.4);
   background-color: rgba(229, 229, 229, 0.5);
   border: none;
@@ -2049,6 +2049,7 @@ ul.companies-list li {
 .write-us-form textarea:hover {
   background-color: rgba(229, 229, 229, 0.8);
 }
+
 
 .write-us-form input[type=text]:focus,
 .write-us-form input[type=email]:focus,
