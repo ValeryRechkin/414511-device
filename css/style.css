@@ -795,8 +795,9 @@ ul.bluetooth {
 
 .home-popular-item {
   width: 160px;
-  float: left;
-  margin-right: 40px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 35px;
 }
 
 .home-popular-item:last-child {
