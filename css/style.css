@@ -983,7 +983,8 @@ ul.companies-list li {
 }
 
 .search input.button {
-  display: none;
+  //display: none;
+  opacity: 0;
 }
 
 .search input[name=search-string] {
@@ -1047,7 +1048,8 @@ ul.companies-list li {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.search input[name=search-string]:focus {
+.search input[name=search-string]:focus,
+.search input[name=search-string].focus {
   color: rgba(0, 0, 0, 1);
   border-bottom: 2px solid rgb(0, 0, 0);
   outline: none;
@@ -1058,8 +1060,9 @@ ul.companies-list li {
 }
 
 .search.focus input.button,
-.search input[name="search-string"]:focus~input.button {
+.search input.button {
   padding: 0px;
+  opacity: 0;
   margin: -6px 0px 0px 0px;
   display: inline-block;
   vertical-align: top;
@@ -1077,14 +1080,22 @@ ul.companies-list li {
   background: transparent;
 }
 
+.search input[name="search-string"]:focus~input.button {
+  opacity: 1;
+}
+
 .search input[name="search-string"]:focus~input.button:hover {
+  opacity: 1;
   background: black;
   color: white;
 }
 
-.search input[name="search-string"]:focus~input.button:active {
+.search input[name="search-string"]:focus~input.button:active,
+.search input.button:active {
+  opacity: 1;
   background: black;
   color: rgba(255, 255, 255, 0.3);
+  outline: none;
 }
 
 .home-popular-item a .icon-bg {

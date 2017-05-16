@@ -85,3 +85,12 @@
         serviceDescription[key].classList.add("active");
       });
     });
+
+    var searchBtn = document.querySelector(".search .button");
+    var searchStr = document.querySelector(".search input[name=search-string]");
+    searchBtn.addEventListener("mousedown", function(e) {
+      searchStr.classList.toggle("focus");
+    });
+    searchBtn.addEventListener("mouseup", function(e) {
+      searchStr.classList.toggle("focus");
+    })
