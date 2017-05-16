@@ -383,15 +383,13 @@ footer.footer {
 .logo li {
   width: 260px;
   min-height: 100px;
-  margin-right: 40px;
-  float: left;
+  margin-right: 35px;
   display: inline-block;
   vertical-align: top;
   list-style: none;
-  margin-right: 40px;
 }
 
-.logo li:last-child {
+.logo li:nth-child(4n) {
   margin-right: 0px;
 }
 
@@ -406,9 +404,9 @@ footer.footer {
   vertical-align: top;
 }
 
-.logo li a.dji .logo li:last-child {
+/*.logo li a.dji .logo li:last-child {
   margin-right: 0px;
-}
+}*/
 
 .home-info-about-us {
   width: 560px;
