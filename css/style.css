@@ -789,7 +789,7 @@ ul.bluetooth {
 
 .home-popular-list {
   padding: 0px;
-  margin: 0px 0px 70px 0px;
+  margin: 0px 0px 36px 0px;
   list-style: none;
 }
 
@@ -797,11 +797,11 @@ ul.bluetooth {
   width: 160px;
   display: inline-block;
   vertical-align: top;
-  margin-right: 35px;
+  margin: -1px 35px 35px 1px;
 }
 
-.home-popular-item:last-child {
-  margin-right: 0px;
+.home-popular-item:nth-child(6n) {
+  margin: -1px -1px 35px 0px;
 }
 
 .companies-list {
@@ -2020,7 +2020,7 @@ ul.companies-list li {
   letter-spacing: 0em;
   color: rgb(0, 0, 0);
   margin-bottom: 11px;
-  padding: 20px 0px 0px 29px;  
+  padding: 20px 0px 0px 29px;
   margin-top: 7px;
 }
 
@@ -2074,11 +2074,11 @@ ul.companies-list li {
   float: left;
 }
 
-.write-us-form-col.col2{
+.write-us-form-col.col2 {
   margin-left: -10px;
 }
 
-.write-us-form-button{
+.write-us-form-button {
   margin-left: 25px;
 }
 
@@ -2106,8 +2106,8 @@ ul.companies-list li {
 }
 
 .slide-img-1 {
-    margin-right: 13px;
-    margin-top: 1px;
+  margin-right: 13px;
+  margin-top: 1px;
 }
 
 .slide-img-2 {
@@ -2117,5 +2117,3 @@ ul.companies-list li {
 .slide-img-3 {
   margin-top: 10px;
 }
-
-
